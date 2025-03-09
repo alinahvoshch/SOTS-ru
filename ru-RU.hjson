@@ -188,7 +188,7 @@ Mods: {
 			PharaohsCurse: Проклятье Фараона пробудилось!
 			Lux: Lux has awoken!
 			Glowmoth: Светляк пробудился!
-			Polaris: Polaris has awoken!
+			Polaris: Полярный пробудился!
 		}
 
 		Biomes: {
@@ -235,8 +235,8 @@ Mods: {
 			Dungeon: Drops in the dungeon
 			PlanetariumBiome: Drops in Planetarium biome
 			OnFire: Drops if on fire
-			PhantarayCore1: With a core
-			PhantarayCore2: Without a core
+			PhantarayCore1: С ядром
+			PhantarayCore2: Без ядра
 		}
 
 		Prefixes: {
@@ -334,7 +334,7 @@ Mods: {
 
 			NatureSlimeBanner: {
 				# Banner
-				DisplayName: Flowering Slime Banner
+				DisplayName: Знамя цветочного слизня
 				Tooltip: ""
 			}
 
@@ -344,7 +344,7 @@ Mods: {
 			}
 
 			PutridPinkyRelic: {
-				DisplayName: Putrid Pinky Relic
+				DisplayName: Реликвия Гнилостной пинки
 				Tooltip: ""
 			}
 
@@ -359,7 +359,7 @@ Mods: {
 			}
 
 			PolarisRelic: {
-				DisplayName: Polaris Relic
+				DisplayName: Релкивия Полярного
 				Tooltip: ""
 			}
 
@@ -384,37 +384,37 @@ Mods: {
 			}
 
 			TreasureSlimeBanner: {
-				DisplayName: Treasure Slime Banner
+				DisplayName: Знамя драгоценного слизня
 				Tooltip: ""
 			}
 
 			GoldenTreasureSlimeBanner: {
-				DisplayName: Golden Treasure Slime Banner
+				DisplayName: Знамя золотого драгоценного слизня
 				Tooltip: ""
 			}
 
 			FrozenTreasureSlimeBanner: {
-				DisplayName: Frozen Treasure Slime Banner
+				DisplayName: Знамя замороженного драгоценного слизня
 				Tooltip: ""
 			}
 
 			ShadowTreasureSlimeBanner: {
-				DisplayName: Shadow Treasure Slime Banner
+				DisplayName: Знамя теневого драгоценного слизня
 				Tooltip: ""
 			}
 
 			PyramidTreasureSlimeBanner: {
-				DisplayName: Pyramid Treasure Slime Banner
+				DisplayName: Знамя драгоценного слизня Пирамиды
 				Tooltip: ""
 			}
 
 			FlamingGhastBanner: {
-				DisplayName: Flaming Ghast Banner
+				DisplayName: Знамя пылающего упыря
 				Tooltip: ""
 			}
 
 			BleedingGhastBanner: {
-				DisplayName: Bleeding Ghast Banner
+				DisplayName: Знамя кровоточащего упыря
 				Tooltip: ""
 			}
 
@@ -424,17 +424,17 @@ Mods: {
 			}
 
 			LostSoulBanner: {
-				DisplayName: Lost Soul Banner
+				DisplayName: Знамя потерянной души
 				Tooltip: ""
 			}
 
 			SnakeBanner: {
-				DisplayName: Snake Banner
+				DisplayName: Знамя змеи
 				Tooltip: ""
 			}
 
 			SnakePotBanner: {
-				DisplayName: Snake Pot Banner
+				DisplayName: Знамя змеи в кувшине
 				Tooltip: ""
 			}
 
@@ -444,7 +444,7 @@ Mods: {
 			}
 
 			WallMimicBanner: {
-				DisplayName: Wall Mimic Banner
+				DisplayName: Занмя стены-мимика
 				Tooltip: ""
 			}
 
@@ -474,32 +474,32 @@ Mods: {
 			}
 
 			GhastBanner: {
-				DisplayName: Ghast Banner
+				DisplayName: Знамя упыря
 				Tooltip: ""
 			}
 
 			MaligmorBanner: {
-				DisplayName: Maligmor Banner
+				DisplayName: Знамя малигмора
 				Tooltip: ""
 			}
 
 			TeratomaBanner: {
-				DisplayName: Teratoma Banner
+				DisplayName: Знамя тератомы
 				Tooltip: ""
 			}
 
 			CorruptionTreasureSlimeBanner: {
-				DisplayName: Corruption Treasure Slime Banner
+				DisplayName: Знамя искажённого драгоценного слизня
 				Tooltip: ""
 			}
 
 			CrimsonTreasureSlimeBanner: {
-				DisplayName: Crimson Treasure Slime Banner
+				DisplayName: Знамя багряного драгоценного слизня
 				Tooltip: ""
 			}
 
 			JungleTreasureSlimeBanner: {
-				DisplayName: Jungle Treasure Slime Banner
+				DisplayName: Знамя драгоценного слизня джунглей
 				Tooltip: ""
 			}
 
@@ -509,12 +509,12 @@ Mods: {
 			}
 
 			HallowTreasureSlimeBanner: {
-				DisplayName: Hallow Treasure Slime Banner
+				DisplayName: Знамя освящённого драгоценного слизня
 				Tooltip: ""
 			}
 
 			DungeonTreasureSlimeBanner: {
-				DisplayName: Dungeon Treasure Slime Banner
+				DisplayName: Знамя драгоценного слизня Темницы
 				Tooltip: ""
 			}
 
@@ -1346,11 +1346,11 @@ Mods: {
 			}
 
 			WormWoodCollapse: {
-				DisplayName: Goopwood Collapse
+				DisplayName: Коллапс из липкого дерева
 				Tooltip:
 					'''
-					Charge to increase damage up to 500%
-					Takes 3 seconds to reach max charge
+					Зарядите для получения 500% бонуса к урону
+					Для полной зарядки потребуется 3 секунды
 					'''
 			}
 
@@ -1655,19 +1655,19 @@ Mods: {
 
 			Curgeon: {
 				# Fishing
-				DisplayName: Curgeon
+				DisplayName: Осйотер
 				# Fishing
-				Tooltip: Has valuable eggs that can only be harvested by disection
+				Tooltip: Вынашивает ценную икру, которую можно собрать только путём вскрытия
 			}
 
 			PhantomFish: {
-				DisplayName: Phantom Fish
-				Tooltip: "'Feeds off of energy within voidspace'"
+				DisplayName: Призрачная рыба
+				Tooltip: «Питается энергией пустоты»
 			}
 
 			SeaSnake: {
-				DisplayName: Water Snake
-				Tooltip: "'Not actually venomous'"
+				DisplayName: Водяная змея
+				Tooltip: «На самом деле она не ядовита»
 			}
 
 			TinyPlanetFish: {
@@ -1813,7 +1813,7 @@ Mods: {
 			}
 
 			FragmentOfTide: {
-				DisplayName: Fragment of Tide
+				DisplayName: Фрагмент прилива
 				Tooltip: ""
 			}
 
@@ -2319,12 +2319,12 @@ Mods: {
 			}
 
 			PolarisMusicBox: {
-				DisplayName: Music Box (Polaris)
+				DisplayName: Музыкальная шкатулка (Полярный)
 				Tooltip: ""
 			}
 
 			PutridPinkyMusicBox: {
-				DisplayName: Music Box (Putrid Pinky)
+				DisplayName: Музыкальная шкатулка (Гнилостная пинки)
 				Tooltip: ""
 			}
 
@@ -2375,18 +2375,18 @@ Mods: {
 			}
 
 			NatureWreath: {
-				DisplayName: Wormwood Wreath
-				Tooltip: Increases max minions by 1
+				DisplayName: Цветочный венок
+				Tooltip: Увеличивает максимальное количество слотов миньонов на 1
 			}
 
 			NatureLeggings: {
-				DisplayName: Wormwood Leggings
-				Tooltip: 5% increases summon damage and movement speed
+				DisplayName: Цветочные штаны
+				Tooltip: Увеличивает урон призывателя и скорость передвижения на 5%
 			}
 
 			NatureShirt: {
-				DisplayName: Wormwood Shirt
-				Tooltip: Increases defense for every active minion
+				DisplayName: Цветочная рубашка
+				Tooltip: Увеличивает защиту за каждого призванного миньона
 			}
 
 			NatureSpell: {
@@ -3021,7 +3021,7 @@ Mods: {
 			}
 
 			PolarisBossBag: {
-				DisplayName: Treasure Bag
+				DisplayName: Мешок с сокровищами (Полярный)
 				Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 			}
 
@@ -3214,8 +3214,8 @@ Mods: {
 			}
 
 			RoughskinPotion: {
-				DisplayName: Roughskin Potion
-				Tooltip: Increases defense by 4 and damage by 4%
+				DisplayName: Зелье грубой кожи
+				Tooltip: Увеличивает защиту на 4 ед. и урон на 4%
 			}
 
 			SeismicTonic: {
@@ -3231,8 +3231,8 @@ Mods: {
 			}
 
 			SoulAccessPotion: {
-				DisplayName: Soul Access Potion
-				Tooltip: Increases void regeneration speed by 10%
+				DisplayName: Зелье душепроводимости
+				Tooltip: Увеличивает скорость восполнения пустоты на 10%
 			}
 
 			StarlightTonic: {
@@ -3257,8 +3257,8 @@ Mods: {
 			}
 
 			RoastedPeanuts: {
-				DisplayName: Roasted Peanuts
-				Tooltip: Minor improvements to all stats
+				DisplayName: Жареный арахис
+				Tooltip: "{$BuffDescription.WellFed}"
 			}
 
 			PyramidAmbient: {
@@ -3472,11 +3472,11 @@ Mods: {
 			}
 
 			PharaohsCane: {
-				DisplayName: Pharaoh's Cane
+				DisplayName: Трость фараона
 				Tooltip:
 					'''
-					Terrible for combat, but makes enemies drop more gold
-					'Who would ever want such a thing?'
+					Ужасна в качестве оружия, но с убитых врагов будет выпадать больше монет
+					«Кому вообще может это понадобиться?»
 					'''
 			}
 
@@ -3675,86 +3675,86 @@ Mods: {
 			}
 
 			GelWings: {
-				DisplayName: Gel Wings
+				DisplayName: Гелевые крылья
 				Tooltip:
 					'''
-					Allows flight and slow fall
-					'It really shouldn't hold up well'
+					Позволяют летать и парить
+					«Они действительно не должны быть такими крепкими»
 					'''
 			}
 
 			JarOfPeanuts: {
-				DisplayName: Jar of Peanuts
-				Tooltip: Summons the Putrid Pinky
+				DisplayName: Банка арахиса
+				Tooltip: Призывает Гнилостную пинки
 			}
 
 			Peanut: {
-				DisplayName: Peanut
-				Tooltip: "'The favorite snack of a devilish slime'"
+				DisplayName: Арахис
+				Tooltip: «Любимая закуска дьявольских склизней!»
 			}
 
 			PeanutRepeater: {
-				DisplayName: Peanut Repeater
+				DisplayName: Арахисовый арбалет
 				Tooltip:
 					'''
-					Launches tasty peanuts that attract Pinky Air Raids
-					20% chance to not consume ammo
+					Стреляет вкусным арахисом, вызывающие звёздные налёты пинки
+					20%-ный шанс не потратить боеприпасы
 					'''
 			}
 
 			PinkyBag: {
-				DisplayName: Treasure Bag
+				DisplayName: Мешок с сокровищами (Гнилостная пинки)
 				Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 			}
 
 			PutridEye: {
-				DisplayName: Putrid Eye
-				Tooltip: "'You want deathray? We have deathray'"
+				DisplayName: Гнилостный глаз
+				Tooltip: «Вы хотите смертельный луч? Мы дадим вам смертельный луч»
 			}
 
 			VialofAcid: {
-				DisplayName: Vial of Acid
-				Tooltip: "'A gooey corrosive substance that excels at dissolving organic compounds'"
+				DisplayName: Колба токсинов
+				Tooltip: «Вязкое вещество, отлчно растворяющее органические соединения»
 			}
 
 			CorrosiveGel: {
-				DisplayName: Corrosive Gel
-				Tooltip: "'It's like pink gel except it'll melt your fingers if you're not careful'"
+				DisplayName: Разлагающий гель
+				Tooltip: «Это как розовый гель, только растворяющий твои пальцы при косании»
 			}
 
 			Wormwood: {
-				DisplayName: Goopwood
+				DisplayName: Липкая древесина
 				Tooltip: ""
 			}
 
 			WormWoodHelix: {
-				DisplayName: Goopwood Helix
-				Tooltip: Converts musket balls into helix shots
+				DisplayName: Спиральщик из липкого дерева
+				Tooltip: Преврашает мушкетные пули в спиралевидные выстрелы
 			}
 
 			WormWoodHook: {
-				DisplayName: Goopwood Hook
-				Tooltip: Retracts upon hitting an enemy
+				DisplayName: Крюк из липкого дерева
+				Tooltip: Втягивается обратно при попадании по врагу
 			}
 
 			WormWoodParasite: {
-				DisplayName: Goopwood Parasite
+				DisplayName: Паразит из липкого дерева
 				Tooltip:
 					'''
-					Increases void gain by 2 and void critical strike chance by 8%
-					Critical strikes heal small amounts of void
-					Decreases max void by 20
+					Увеличивает скорость восполнения востоты на 2 ед. и шанс пустотного критическиго удара на 8%
+					Критические удары восполняют немного пустоты
+					Увеличивает максимальный запас пустоты на 20 ед.
 					'''
 			}
 
 			WormWoodScepter: {
-				DisplayName: Goopwood Scepter
-				Tooltip: Summons a Wormwood Turret to fire upon up to 4 enemies at a time
+				DisplayName: Скипитер из липкого дерева
+				Tooltip: Призывает цветок-стража, способный атаковать сразу до 4 врагов
 			}
 
 			WormWoodStaff: {
-				DisplayName: Goopwood Staff
-				Tooltip: Fires 3 bouncy, erratic, lingering pink projectiles
+				DisplayName: Посох из липкого дерева
+				Tooltip: Выпускает 3 отскакивающих, нестабильных, и долго летящих розовых снаряда
 			}
 
 			BoreBullet: {
@@ -4360,12 +4360,12 @@ Mods: {
 			}
 
 			PeanutButter: {
-				DisplayName: Peanut Butter
+				DisplayName: Арахисовое масло
 				Tooltip:
 					'''
-					Summons a pet Putrid Pinky to assist in combat
-					Latches onto enemies, slowing them down and draining life
-					Increases life regeneration by 1
+					Призывает ручную Гнилостную пинки сражаться за вас
+					Она нападает на врагов, замедляя их и высасывая их здоровье
+					Увеличивает скорость регенерации здоровья на 1 ед.
 					'''
 			}
 
@@ -4442,7 +4442,7 @@ Mods: {
 			}
 
 			PutridPinkyTrophy: {
-				DisplayName: Putrid Pinky Trophy
+				DisplayName: Трофей Гнилостной пинки
 				Tooltip: ""
 			}
 
@@ -4623,47 +4623,47 @@ Mods: {
 			}
 
 			GoopwoodBarrel: {
-				DisplayName: Goopwood Barrel
+				DisplayName: Бочка из липкого дерева
 				Tooltip: ""
 			}
 
 			GoopwoodBed: {
-				DisplayName: Goopwood Bed
+				DisplayName: Кровать из липкого дерева
 				Tooltip: ""
 			}
 
 			GoopwoodCandle: {
-				DisplayName: Goopwood Candle
+				DisplayName: Свеча из липкого дерева
 				Tooltip: ""
 			}
 
 			GoopwoodChair: {
-				DisplayName: Goopwood Chair
+				DisplayName: Стул из липкого дерева
 				Tooltip: ""
 			}
 
 			GoopwoodChandelier: {
-				DisplayName: Goopwood Chandelier
+				DisplayName: Люстра из липкого дерева
 				Tooltip: ""
 			}
 
 			GoopwoodDoor: {
-				DisplayName: Goopwood Door
+				DisplayName: Дверь из липкого дерева
 				Tooltip: ""
 			}
 
 			GoopwoodPlatform: {
-				DisplayName: Goopwood Platform
+				DisplayName: Платформа из липкого дерева
 				Tooltip: ""
 			}
 
 			GoopwoodTable: {
-				DisplayName: Goopwood Table
+				DisplayName: Стол из липкого дерева
 				Tooltip: ""
 			}
 
 			GoopwoodWorkBench: {
-				DisplayName: Goopwood Work Bench
+				DisplayName: Верстак из липкого дерева
 				Tooltip: ""
 			}
 
@@ -5077,12 +5077,12 @@ Mods: {
 			}
 
 			GoopwoodWall: {
-				DisplayName: Goopwood Wall
+				DisplayName: Стена из липкого дерева
 				Tooltip: ""
 			}
 
 			PutridPinkyMask: {
-				DisplayName: Putrid Pinky Mask
+				DisplayName: Маска Гнилостной пинки
 				Tooltip: ""
 			}
 
@@ -5126,12 +5126,12 @@ Mods: {
 			}
 
 			BigPhantarayBanner: {
-				DisplayName: Phantaray Banner (Big)
+				DisplayName: Знамя большого призрачного ската
 				Tooltip: ""
 			}
 
 			SmallPhantarayBanner: {
-				DisplayName: Phantaray Banner (Small)
+				DisplayName: Знамя маленького призрачного ската
 				Tooltip: ""
 			}
 
@@ -5898,7 +5898,7 @@ Mods: {
 				Vibrant Pistol fires three shots at once at the cost of accuracy
 				'''
 			Vespera: Increases max void by 25 and void gain by 50%
-			NatureWreath: Summons three Blooming Hooks to assist in combat
+			NatureWreath: Призывает 3 цветочные лозы сражаться за вас
 			TwilightAssassins:
 				'''
 				The Holo Eye now automatically attacks for you
@@ -5994,7 +5994,7 @@ Mods: {
 			AncientGoldThroneTile.MapEntry: Трон из древнего золота
 			AncientGoldTorchTile.MapEntry: Факел из древнего золота
 			EarthenPlatingTorchTile.MapEntry: Earthen Plating Torch
-			GoopwoodBarrelTile.MapEntry0: Goopwood Barrel
+			GoopwoodBarrelTile.MapEntry0: Бочка из липкого дерева
 			Hydroponics.MapEntry: Hydroponics
 			NaturePlatingTorchTile.MapEntry: Nature Plating Torch
 			PermafrostPlatingTorchTile.MapEntry: Permafrost Plating Torch
@@ -6056,13 +6056,13 @@ Mods: {
 			EarthenPlatingBlastDoorTileOpen.MapEntry: Earthen Plating Blast Door
 
 			GoopwoodDoorClosed: {
-				MapEntry: Goopwood Door
-				DisplayName: Goopwood Door
+				MapEntry: Дверь из липкого дерева
+				DisplayName: Дверь из липкого дерева
 			}
 
 			GoopwoodDoorOpen: {
-				MapEntry: Goopwood Door
-				DisplayName: Goopwood Door
+				MapEntry: Дверь из липкого дерева
+				DisplayName: Дверь из липкого дерева
 			}
 
 			NaturePlatingBlastDoorTileClosed.MapEntry: Nature Plating Blast Door
@@ -6165,18 +6165,18 @@ Mods: {
 			BulletSnakeWing.DisplayName: Bullet Snake
 
 			Polaris: {
-				DisplayName: Polaris
+				DisplayName: Полярный
 
 				BossChecklistIntegration: {
-					EntryName: Polaris
-					SpawnInfo: Activate the [i:SOTS/FrostArtifact] of the snow biome using [i:SOTS/FrostedKey]
-					DespawnMessage: Polaris is no longer after you
+					EntryName: Полярный
+					SpawnInfo: Активируйте [i:SOTS/FrostArtifact] в снегах с помощью [i:SOTS/FrostedKey]
+					DespawnMessage: Полярный больше не прислудет вас
 				}
 			}
 
-			PolarisCannon.DisplayName: Polar Cannon
-			PolarisLaser.DisplayName: Polar Quad-Cannon
-			PolarisSpike.DisplayName: Polar Spike
+			PolarisCannon.DisplayName: Полярная пушка
+			PolarisLaser.DisplayName: Полярная четырёхствольная пушка
+			PolarisSpike.DisplayName: Полярный шип
 
 			Glowmoth: {
 				# Glowmoth
@@ -6192,15 +6192,15 @@ Mods: {
 			GlowmothMinion.DisplayName: Illuminant Moth
 			HookTurret.DisplayName: Putrid Turret
 			PutridHook.DisplayName: Putrid Hook
-			PutridPinky1.DisplayName: Putrid Pinky
+			PutridPinky1.DisplayName: Гнилостная пинки
 
 			PutridPinkyPhase2: {
-				DisplayName: Putrid Pinky
+				DisplayName: Гнилостная пинки
 
 				BossChecklistIntegration: {
-					EntryName: Putrid Pinky
-					SpawnInfo: Summon in any biome at any time using a [i:SOTS/JarOfPeanuts]
-					DespawnMessage: Putrid Pinky is no longer after you
+					EntryName: Гнилостная пинки
+					SpawnInfo: Используйте [i:SOTS/JarOfPeanuts] в любом биоме
+					DespawnMessage: Гнилостная пинки больше не пристедует вас.
 				}
 			}
 
@@ -6248,17 +6248,17 @@ Mods: {
 			PhaseAssaulterTail.DisplayName: Phase Assaulter
 			PhaseSpeeder.DisplayName: Phase Speeder
 			# TreasureSlimes
-			TreasureSlimes.DisplayName: Treasure Slime
-			BasicTreasureSlime.DisplayName: Treasure Slime
-			CorruptionTreasureSlime.DisplayName: Corruption Treasure Slime
-			CrimsonTreasureSlime.DisplayName: Crimson Treasure Slime
-			DungeonTreasureSlime.DisplayName: Dungeon Treasure Slime
-			GoldenTreasureSlime.DisplayName: Golden Treasure Slime
-			HallowTreasureSlime.DisplayName: Hallowed Treasure Slime
-			IceTreasureSlime.DisplayName: Frozen Treasure Slime
-			JungleTreasureSlime.DisplayName: Jungle Treasure Slime
-			PyramidTreasureSlime.DisplayName: Pyramid Treasure Slime
-			ShadowTreasureSlime.DisplayName: Shadow Treasure Slime
+			TreasureSlimes.DisplayName: Драгоценный слизень
+			BasicTreasureSlime.DisplayName: Драгоценный слизень
+			CorruptionTreasureSlime.DisplayName: Искажённый драгоценный слизень
+			CrimsonTreasureSlime.DisplayName: Багряный драгоценный слизень
+			DungeonTreasureSlime.DisplayName: Драгоценный слизель Темницы
+			GoldenTreasureSlime.DisplayName: Золотой драгоценный слизень
+			HallowTreasureSlime.DisplayName: Освящённый драгоценный слизень
+			IceTreasureSlime.DisplayName: Замороженный драгоценный слизень
+			JungleTreasureSlime.DisplayName: Драгоценный слизень джунглей
+			PyramidTreasureSlime.DisplayName: Драгоценный слизень Пирамиды
+			ShadowTreasureSlime.DisplayName: Теневой драгоценный слизень
 
 			# Town
 			Archaeologist: {
@@ -6285,7 +6285,7 @@ Mods: {
 			LostSoul.DisplayName: Потерянная душа
 			Maligmor.DisplayName: Малигмор
 			MaligmorChild.DisplayName: Малигмор
-			NatureSlime.DisplayName: Flowering Slime
+			NatureSlime.DisplayName: Цветочный слизень
 			PhaseEye.DisplayName: Phase Eye
 			SittingMushroom.DisplayName: Sitting Mushroom
 			SnakePot.DisplayName: Змея в кувшине
@@ -6294,9 +6294,9 @@ Mods: {
 			TwilightScouter.DisplayName: Twilight Scouter
 			WallMimic.DisplayName: Стена-мимик
 			Snake.DisplayName: Змея
-			PhantarayBig.DisplayName: Phantaray
-			PhantarayCore.DisplayName: Phantaray
-			NewPolaris.DisplayName: Polaris
+			PhantarayBig.DisplayName: Призрачный скат
+			PhantarayCore.DisplayName: Призрачный скат
+			NewPolaris.DisplayName: Полярный
 			Chimera.DisplayName: Chimera
 			ChimeraSnake.DisplayName: Chimera Snake
 		}
@@ -6349,27 +6349,27 @@ Mods: {
 
 		BossChecklist: {
 			BossName: {
-				PutridPinky: Putrid Pinky
+				PutridPinky: Гнилостная пинки
 				PharaohsCurse: Проклятье Фараона
 				TheAdvisor: The Advisor
-				Polaris: Polaris
+				Polaris: Полярный
 				Lux: Lux
 				SubspaceSerpent: Subspace Serpent
 				Glowmoth: Светляк
 			}
 
 			BossDescription: {
-				PutridPinky: Summon in any biome at any time using a {0}
+				PutridPinky: Используйте {0} в любом биоме
 				PharaohsCurse: Нажмите на {0} в Проклятой Пирамиде
 				TheAdvisor: Destroy the 4 tethered Otherworldly Constructs of the Planetarium
-				Polaris: Activate the {0} of the snow biome using {1}
+				Polaris: Активируйте {0} в снегах с помощью {1}
 				Lux: Anger a Chaos Spirit
 				SubspaceSerpent: Tear a dimensional rift in hell by detonating a {0}
 				Glowmoth: Разрушьте светящийся шёлковый кокон или призовите вручную с помощью {0} в грибном биоме
 			}
 
 			BossDisappear: {
-				PutridPinky: Putrid Pinky has robbed everyone of their peanuts!
+				PutridPinky: Гнилостная пинки оставила всех без их арахиса!
 				PharaohsCurse: ""
 				TheAdvisor: ""
 				Polaris: ""
@@ -6823,7 +6823,7 @@ Mods: {
 			MantisGripCrusher.DisplayName: Mantis Grip Crusher
 			Metalmalgamation.DisplayName: Metalmalgamation
 			MinersPickaxe.DisplayName: Miner's Pickaxe
-			MiniPolarisCannon.DisplayName: Polar Cannon
+			MiniPolarisCannon.DisplayName: Полярная пушка
 			multiplayerDarkEye.DisplayName: multiplayer Dark Eye
 			NatureBeam.DisplayName: Nature Beam
 			NatureBeat.DisplayName: Nature Blast
@@ -6856,7 +6856,7 @@ Mods: {
 			PermafrostLinger.DisplayName: Lingering Permafrost
 			PermafrostSpike.DisplayName: Permafrost Spike
 			PermafrostSpirit.DisplayName: Permafrost Spirit
-			PetPutridPinkyCrystal.DisplayName: Pinky Pet
+			PetPutridPinkyCrystal.DisplayName: Ручная пинки
 			PhantomFist.DisplayName: Phantom Fist
 			PharaohShade.DisplayName: Pharaoh Shade
 			PhaseColumn.DisplayName: Phase Thunder
@@ -6874,9 +6874,9 @@ Mods: {
 			PinkLightningZap.DisplayName: Pink Lightning
 			PinkTracer.DisplayName: Putrid Tracer
 			PinkyBomber.DisplayName: Pinky Bomber
-			PinkyHook.DisplayName: Wormwood Hook
+			PinkyHook.DisplayName: Крюк из липкого дерева
 			PinkyMusketBall.DisplayName: Pinky Shot
-			PinkyTurret.DisplayName: Wormwood Turret
+			PinkyTurret.DisplayName: Цветок-страж
 			PlasmaBall.DisplayName: Plasma Ball
 			PlasmaCrush.DisplayName: Plasma Crush
 			PlasmaCutter.DisplayName: Time to die
@@ -7096,15 +7096,15 @@ Mods: {
 			VorpalLightningDamage.DisplayName: Origin Thunder
 			PogBubble.DisplayName: Pog Bubble
 			GlowWhipProjectile.DisplayName: Glow Whip Projectile
-			PhantarayBall.DisplayName: Phantaray Ball
+			PhantarayBall.DisplayName: Шар призрачного ската
 			HydroServant.DisplayName: Hydro Servant
 			AtlantisProj.DisplayName: Atlantis
 			AtlantisGlaive.DisplayName: Atlantis Glaive
 			WaterShark.DisplayName: Water Shark
 			HydroBubble.DisplayName: Hydro Bubble
-			PolarisMines.DisplayName: Polaris Mine
-			PolarisBeam.DisplayName: Polaris Beam
-			PolarisLaser.DisplayName: Polaris Laser
+			PolarisMines.DisplayName: Полярный мина
+			PolarisBeam.DisplayName: Полярный луч
+			PolarisLaser.DisplayName: Полярный лазер
 			VoidspaceFlameHitbox.DisplayName: Voidspace Flame Hitbox
 			SootBall.DisplayName: Soot Ball
 			EmberDamage.DisplayName: Ember Damage
