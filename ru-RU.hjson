@@ -208,8 +208,8 @@ Mods: {
 			}
 
 			PlanetariumBiome: {
-				DisplayName: Planetarium
-				TownNPCDialogueName: the Planetarium Biome
+				DisplayName: Планетариум
+				TownNPCDialogueName: Планетариум
 			}
 		}
 
@@ -233,7 +233,7 @@ Mods: {
 			HallowBiome: Drops in the hallow biome
 			BeachBiome: Drops in the beach biome
 			Dungeon: Drops in the dungeon
-			PlanetariumBiome: Drops in Planetarium biome
+			PlanetariumBiome: Выпадает в Панетариуме
 			OnFire: Drops if on fire
 			PhantarayCore1: С ядром
 			PhantarayCore2: Без ядра
@@ -290,8 +290,8 @@ Mods: {
 			}
 
 			CharredWood: {
-				DisplayName: Charred Wood
-				Tooltip: "'Too burnt to be used'"
+				DisplayName: Обугленное дерево
+				Tooltip: «Слишком обгоревшее, чтобы его можно было использовать»
 			}
 
 			CharredWoodWall: {
@@ -1808,7 +1808,7 @@ Mods: {
 			}
 
 			FragmentOfPermafrost: {
-				DisplayName: Fragment of Permafrost
+				DisplayName: Фрагмент мерзлоты
 				Tooltip: ""
 			}
 
@@ -1848,7 +1848,7 @@ Mods: {
 			}
 
 			PermafrostPlating: {
-				DisplayName: Permafrost Plating
+				DisplayName: Мёрзлое покрытие
 				Tooltip: ""
 			}
 
@@ -1878,7 +1878,7 @@ Mods: {
 			}
 
 			UltimatePlating: {
-				DisplayName: Ultimate Plating
+				DisplayName: Ультимативное покрытие
 				Tooltip: ""
 			}
 
@@ -2033,17 +2033,17 @@ Mods: {
 
 			PermafrostPlatingBlastDoor: {
 				# Permafrost
-				DisplayName: Permafrost Plating Blast Door
+				DisplayName: Взрывоустойчивая дверь из мёрзлого покрытия
 				Tooltip: ""
 			}
 
 			PermafrostPlatingCapsule: {
-				DisplayName: Permafrost Plating Capsule
+				DisplayName: Капсула из мёрзлого покрытия
 				Tooltip: ""
 			}
 
 			PermafrostPlatingPlatform: {
-				DisplayName: Permafrost Plating Platform
+				DisplayName: Платформа из мёрзлого покрытия
 				Tooltip: ""
 			}
 
@@ -2314,7 +2314,7 @@ Mods: {
 			}
 
 			PlanetariumMusicBox: {
-				DisplayName: Music Box (Planetarium)
+				DisplayName: Музыкальная шкатулка (Планетариум)
 				Tooltip: ""
 			}
 
@@ -2612,8 +2612,8 @@ Mods: {
 			}
 
 			InfernoHook: {
-				DisplayName: Inferno Hook
-				Tooltip: A very fast hook that strikes enemies as it travels
+				DisplayName: Инфернальный крюк
+				Tooltip: Очень быстрый крюк, поражающий врагов на пути
 			}
 
 			LashesOfLightning: {
@@ -2638,8 +2638,8 @@ Mods: {
 			}
 
 			Poyoyo: {
-				DisplayName: Poyo-yo
-				Tooltip: Leaves behind a rainbow trail that does 60% damage
+				DisplayName: Пойо-йо
+				Tooltip: Оставляет за собой радужный след, наносящий 60% урона оружия
 			}
 
 			SectionChiefsScythe: {
@@ -2744,7 +2744,7 @@ Mods: {
 			}
 
 			OtherworldlyAlloy: {
-				DisplayName: Twilight Alloy
+				DisplayName: Сумрачный сплав
 				Tooltip: ""
 			}
 
@@ -2778,7 +2778,7 @@ Mods: {
 			LockedSkywareChest.DisplayName: Skyware Chest
 
 			StrangeChest: {
-				DisplayName: Planetarium Chest
+				DisplayName: Сундук Планетария
 				Tooltip: ""
 			}
 
@@ -2859,13 +2859,13 @@ Mods: {
 			}
 
 			SkywareKey: {
-				DisplayName: Skyware Key
-				Tooltip: Opens one locked Skyware Chest
+				DisplayName: Заоблачный ключ
+				Tooltip: Отпирает закрытые заоблачные сундуки
 			}
 
 			StrangeKey: {
-				DisplayName: Strange Key
-				Tooltip: Opens one locked Strange Chest
+				DisplayName: Странный ключ
+				Tooltip: Отпирает закрытые странные сундуки
 			}
 
 			TheAdvisorBossBag: {
@@ -2934,17 +2934,17 @@ Mods: {
 			}
 
 			FrigidHourglass: {
-				DisplayName: Frigid Hourglass
+				DisplayName: Снежные часы
 				Tooltip:
 					'''
-					Freezes your void meter for 15 seconds every minute
-					Provides immunity to Slow, Chilled, Frozen, and Frostburn
-					Increases movement speed by 10%
+					Раз в минуту, замораживает вашу шкалу пустоты на 15 секунд
+					Дарует невоспреимчевость к дебаффаи «{$BuffName.Slow}», «{$BuffName.Chilled}», «{$BuffName.Frozen}» и «{$BuffName.Frostburn}»
+					Увеличивает скорость передвижения на 10%
 					'''
 			}
 
 			FrigidIce: {
-				DisplayName: Frigid Ore
+				DisplayName: Леденящая руда
 				Tooltip: ""
 			}
 
@@ -2979,8 +2979,8 @@ Mods: {
 			}
 
 			FrostedKey: {
-				DisplayName: Frost Key
-				Tooltip: "'Cold to the touch'"
+				DisplayName: Морозный ключ
+				Tooltip: «Холодный на ощуп»
 			}
 
 			HypericeClusterCannon: {
@@ -3141,11 +3141,11 @@ Mods: {
 			}
 
 			DoubleVisionPotion: {
-				DisplayName: Double Vision Potion
+				DisplayName: Зелье двоющихся глаз
 				Tooltip:
 					'''
-					Adds additional lines to your fishing rod, stacks with itself
-					Maxes out at 6 additional lines
+					Позволяет забрасывать дополнительный поплавок удочкой
+					Эффект складывается с самим с собой до 6 раз
 					'''
 			}
 
@@ -3409,13 +3409,13 @@ Mods: {
 			}
 
 			HeartInAJar: {
-				DisplayName: Heart in a Jar
+				DisplayName: Сердце в банке
 				Tooltip:
 					'''
-					Curses enemies within a small radius around you, draining 10 life per second
-					Cursed enemies release a Curse Fragment upon death, which seeks out other enemies
-					Curse fragments deal damage equivalent to 10% of the killed enemies max health plus an additional 10 damage
-					Increases max life by 20
+					Проклинает ближайших врагов в небольшом радиусе, иссушая по 10 ед. здоровья врага в секунду
+					Из поклятых врагов после смерти выходит проклятый фрагмент, ищущий других врагов
+					Проклятый фрагмент наносит урон, равный 10% от максимального здоровья поверженных противников, дополнительно прибавляя 10 ед. урона
+					Увеличивает максимальный запас здоровья на 20 ед.
 					'''
 			}
 
@@ -3511,8 +3511,8 @@ Mods: {
 			}
 
 			RoyalMagnum: {
-				DisplayName: Royal Magnum
-				Tooltip: Releases golden light upon hitting the ground or an enemy
+				DisplayName: Королевский Магнум
+				Tooltip: Пули оставляют вспышки света при ударе об твёрдую поверхность
 			}
 
 			RoyalRubyShard: {
@@ -4512,7 +4512,7 @@ Mods: {
 			}
 
 			PermafrostPlatingWall: {
-				DisplayName: Permafrost Plating Wall
+				DisplayName: Стена из мёрзлого покрытия
 				Tooltip: ""
 			}
 
@@ -4754,89 +4754,89 @@ Mods: {
 			}
 
 			PermafrostPlatingBathtub: {
-				DisplayName: Permafrost Plating Bathtub
+				DisplayName: Ванна из мёрзлого покрытия
 				Tooltip: ""
 			}
 
 			PermafrostPlatingBed: {
-				DisplayName: Permafrost Plating Bed
+				DisplayName: Кровать из мёрзлого покрытия
 				Tooltip: ""
 			}
 
 			PermafrostPlatingBench: {
-				DisplayName: Permafrost Plating Bench
+				DisplayName: Скамейка из мёрзлого покрытия
 				Tooltip: ""
 			}
 
 			PermafrostPlatingBookcase: {
-				DisplayName: Permafrost Plating Bookcase
+				DisplayName: Книжный шкаф мёрзлого покрытия
 				Tooltip: ""
 			}
 
 			PermafrostPlatingBulb: {
-				DisplayName: Permafrost Plating Bulb
+				DisplayName: Шарик из мёрзлого покрытия
 				Tooltip: ""
 			}
 
 			PermafrostPlatingChair: {
-				DisplayName: Permafrost Plating Chair
+				DisplayName: Стул из мёрзлого покрытия
 				Tooltip: ""
 			}
 
 			PermafrostPlatingChandelier: {
-				DisplayName: Permafrost Plating Chandelier
+				DisplayName: Люстра из мёрзлого покрытия
 				Tooltip: ""
 			}
 
 			PermafrostPlatingClock: {
-				DisplayName: Permafrost Plating Clock
+				DisplayName: Напольные часы из мёрзлого покрытия
 				Tooltip: ""
 			}
 
 			PermafrostPlatingDresser: {
-				DisplayName: Permafrost Plating Dresser
+				DisplayName: Комод из мёрзлого покрытия
 				Tooltip: ""
 			}
 
 			PermafrostPlatingLamp: {
-				DisplayName: Permafrost Plating Lamp
+				DisplayName: Напольная лампа из мёзлого покрытия
 				Tooltip: ""
 			}
 
 			PermafrostPlatingLantern: {
-				DisplayName: Permafrost Plating Lantern
+				DisplayName: Фонарь из мёрзлого покрытия
 				Tooltip: ""
 			}
 
 			PermafrostPlatingPiano: {
-				DisplayName: Permafrost Plating Piano
+				DisplayName: Пианино из мёрзлого покрытия
 				Tooltip: ""
 			}
 
 			PermafrostPlatingSink: {
-				DisplayName: Permafrost Plating Sink
+				DisplayName: Раковина из мёрзлого покрытия
 				Tooltip: ""
 			}
 
 			PermafrostPlatingTable: {
-				DisplayName: Permafrost Plating Table
+				DisplayName: Стол из мёрзлого покрытия
 				Tooltip: ""
 			}
 
 			PermafrostPlatingToilet: {
-				DisplayName: Permafrost Plating Toilet
+				DisplayName: Туалет из мёрзлого покрытия
 				Tooltip: ""
 			}
 
 			PermafrostPlatingTorch: {
-				DisplayName: Permafrost Plating Torch
+				DisplayName: Факел из мёрзлого покрытия
 				Tooltip: ""
 			}
 
 			PermafrostPlatingWorkBench: {
-				DisplayName: Permafrost Plating Work Bench
+				DisplayName: Верстак из мёрзлого покрытия
 				# Permafrost
-				Tooltip: Also functions as an anvil
+				Tooltip: Также работает как наковальня
 			}
 
 			AmberChest: {
@@ -4940,17 +4940,17 @@ Mods: {
 			}
 
 			FrigidBar: {
-				DisplayName: Frigid Bar
+				DisplayName: Леденящий слиток
 				Tooltip: ""
 			}
 
 			FrigidBrick: {
-				DisplayName: Frigid Brick
+				DisplayName: Леденящий кирпич
 				Tooltip: ""
 			}
 
 			FrigidBrickWall: {
-				DisplayName: Frigid Brick Wall
+				DisplayName: Стена из леденящего кирпича
 				Tooltip: ""
 			}
 
@@ -5160,8 +5160,8 @@ Mods: {
 			}
 
 			SoulOfPlight: {
-				DisplayName: Soul of Plight
-				Tooltip: "'The essence of war'"
+				DisplayName: Эссенция страдания
+				Tooltip: «Эссенция войны»
 			}
 
 			SoulOfPlightInABottle: {
@@ -5450,10 +5450,10 @@ Mods: {
 			}
 
 			PlanetariumCrate: {
-				DisplayName: Planetarium Crate
+				DisplayName: Ящик Планетария
 				Tooltip:
 					'''
-					Can only be reeled in by a Twilight Fishing Pole
+					Можно выловить только сумрачной удочкой
 					{$CommonItemTooltip.RightClickToOpen}
 					'''
 			}
@@ -5973,8 +5973,8 @@ Mods: {
 			}
 
 			LockedStrangeChest: {
-				MapEntry0: Planetarium Chest
-				MapEntry1: Locked Planetarium Chest
+				MapEntry0: Сундук Планетария
+				MapEntry1: Закрытый сундук Планетария
 			}
 
 			HoloEyeBannerTile.MapEntry: Знамя
@@ -6088,7 +6088,7 @@ Mods: {
 			}
 
 			OtherworldCrateTile.MapEntry: Otherworld Crate Tile
-			PlanetariumCrateTile.MapEntry: Planetarium Crate Tile
+			PlanetariumCrateTile.MapEntry: Ящик Планетария
 		}
 
 		WorldGeneration: {
@@ -6184,8 +6184,8 @@ Mods: {
 
 				BossChecklistIntegration: {
 					EntryName: Светляк
-					SpawnInfo: In a glowing mushroom biome, disturb a glowsilk cacoon or awaken manually using a [i:SOTS/SuspiciousLookingCandle]
-					DespawnMessage: Glowmoth is no longer after you
+					SpawnInfo: Разрушьте светящийся шёлковый кокон или призовите вручную с помощью [i:SOTS/SuspiciousLookingCandle] в грибном биоме
+					DespawnMessage: Светляк больше не преслудет вас.
 				}
 			}
 
@@ -6795,7 +6795,7 @@ Mods: {
 			IceStorm.DisplayName: Ice Storm
 			IncineratorGloveProjectile.DisplayName: Incinerator Glove
 			InfernoBolt.DisplayName: Inferno Bolt
-			InfernoHook.DisplayName: Inferno Hook
+			InfernoHook.DisplayName: Инфенральный крюк
 			InfernoLaser.DisplayName: Lava Laser
 			InfernoPhaseBolt.DisplayName: Phase Bolt
 			InfernoSeeker.DisplayName: Inferno Seeker
