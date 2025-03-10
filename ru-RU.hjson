@@ -160,19 +160,19 @@ Mods: {
 		}
 
 		AddRecipeGroups: {
-			AG: " Gem"
-			SB: " Silver Bar"
-			EM: " Evil Material"
-			EB: " Evil Bar"
-			GB: " Gold Bar"
-			GR: " Gem Robe"
-			PHO: " Pre-Hardmode Ore"
-			T2D2A: " Tier 2 DD2 Armor"
-			T2DD2A: " Tier 2 DD2 Accessory"
+			AG: " самоцвет"
+			SB: " серебрянный слиток"
+			EM: " материал биома зла"
+			EB: " слиток биома зла"
+			GB: " золотой слиток"
+			GR: " самоцветная рба"
+			PHO: " пре-хардмодная руда"
+			T2D2A: " броня Армии Древних 2 тира"
+			T2DD2A: " аксессуар Армии Древних 2 тира"
 			DE: " Dissolving Element"
-			EF: " Elemental Fragment"
-			EP: " Elemental Plating"
-			AS: " Alchemical Seeds"
+			EF: " элементальный фрагмент"
+			EP: " элементальное покрытие"
+			AS: " семя цветка"
 			CC: " Circuit Component"
 		}
 
@@ -257,45 +257,46 @@ Mods: {
 		Items: {
 			AncientSteelBar: {
 				# Abandoned Village
-				DisplayName: Ancient Steel Bar
+				DisplayName: Слиток древней стали
 				# Abandoned Village
-				Tooltip: "'An ancient proto-steel used by various civilizations... and goblins'"
+				Tooltip: «Древний прототип стали, использовавшийся различными цивилизациями... и гоблинами»
 			}
 
 			AncientSteelHalberd: {
-				DisplayName: Ancient Steel Halberd
+				DisplayName: Алебарда из древней стали 
 				Tooltip:
 					'''
-					Shatters enemies, making the next melee attack ignore defense and a guaranteed critical strike
-					The Halberd cannot make use of the shattered effect
+					Разбивает врагов, заставляя следующую атаку ближнего боя проигнорировать защиту врага и гарантировать критический удар
+					Алебарда не получает бонуса от разбития
 					'''
 			}
 
 			AncientSteelLongbow: {
-				DisplayName: Ancient Steel Longbow
+				DisplayName: Длинный лук из древней стали
 				Tooltip:
 					'''
-					Has to windup before firing
-					Arrows travel fast and explode into piercing shrapnel for 100% damage upon hitting enemies
+					Перед стельбой необходимо натянуть тетеву
+					Стелы летять на большой скорости и раздлетаются на осколки, наносящие 100% урона
 					'''
 			}
 
 			AncientSteelSword: {
-				DisplayName: Ancient Steel Sword
+				DisplayName: Меч из древней стали
 				Tooltip:
 					'''
-					Does area damage on hit for 80% damage
-					Critical strikes deal 50% more damage and may also apply a stacking, permanent bleed for 5 damage per second
+					При поподании, наносит 80% урона по площади
+					Критические удары наносят на 50% больше урона
+					Также может наложить на цель складывающийся дебафф кровотечения, наносящей 5 ед. урона в секунду
 					'''
 			}
 
 			CharredWood: {
-				DisplayName: Обугленное дерево
+				DisplayName: Обугленная древесина
 				Tooltip: «Слишком обгоревшее, чтобы его можно было использовать»
 			}
 
 			CharredWoodWall: {
-				DisplayName: Charred Wood Wall
+				DisplayName: Стена из обугленного дерева
 				Tooltip: ""
 			}
 
@@ -310,16 +311,16 @@ Mods: {
 			}
 
 			SootBlock: {
-				DisplayName: Soot Block
+				DisplayName: Сажа
 				Tooltip:
 					'''
-					Contains remnants of burned material inside
-					Can be used in an Extractinator"
+					Останки сгоревшего материала
+					Может быть использован на промывателе
 					'''
 			}
 
 			SootWall: {
-				DisplayName: Soot Wall
+				DisplayName: Стена из сажи
 				Tooltip: ""
 			}
 
@@ -1014,8 +1015,8 @@ Mods: {
 			}
 
 			SkipSoul: {
-				DisplayName: Skip Soul
-				Tooltip: "'A fragment of strange void energy'"
+				DisplayName: Упущенная душа
+				Tooltip: «Фрагмент странной пустотной энергии»
 			}
 
 			SkipShot: {
@@ -1417,7 +1418,7 @@ Mods: {
 				DisplayName: Освещающий топор
 				Tooltip:
 					'''
-					Выпускает блуждающие огоньки, наносящие 60% урона оружия
+					Выпускает блуждающие огоньки, наносящие 60% урона
 					Нажмите ПКМ, чтобы бросить топор,прилипающий к стенам
 					Снова нажмите ПКМ, чтобы вернуть топор
 					'''
@@ -2257,8 +2258,8 @@ Mods: {
 				DisplayName: Длинный лук Весперы
 				Tooltip:
 					'''
-					Необходимо натянуть тетеву, прежде чем выстрелеть
-					Стреля елтят на большой скорости и разделаются на каменные осколки, наносящие 70% урона оружия
+					Перед стрельбой необходимо натянуть тетеву
+					Стреля летять на большой скорости и разделаются на каменные осколки, наносящие 70% урона
 					'''
 			}
 
@@ -2267,7 +2268,7 @@ Mods: {
 				Tooltip:
 					'''
 					Наносит два чередующихся удара
-					Прив втором ударе, выпускает разлетающиеся камни, наносящие 70% урона оружия
+					Прив втором ударе, выпускает разлетающиеся камни, наносящие 70% урона
 					'''
 			}
 
@@ -2487,12 +2488,12 @@ Mods: {
 			AvaritianPlating: {
 				# Otherworld
 				# Blocks
-				DisplayName: Avaritia Plating
+				DisplayName: Покрытие жадности
 				Tooltip: ""
 			}
 
 			HologlassWall: {
-				DisplayName: Hardlight Wall
+				DisplayName: Стена покрытия из твёрдого света
 				Tooltip: ""
 			}
 
@@ -2502,7 +2503,7 @@ Mods: {
 			}
 
 			PortalPlatingWall: {
-				DisplayName: Avaritia Plating Wall
+				DisplayName: Стена из покрытия жадности
 				Tooltip: ""
 			}
 
@@ -2639,7 +2640,7 @@ Mods: {
 
 			Poyoyo: {
 				DisplayName: Пойо-йо
-				Tooltip: Оставляет за собой радужный след, наносящий 60% урона оружия
+				Tooltip: Оставляет за собой радужный след, наносящий 60% урона
 			}
 
 			SectionChiefsScythe: {
@@ -2739,7 +2740,7 @@ Mods: {
 			}
 
 			TwilightShard: {
-				DisplayName: Twilight Plate
+				DisplayName: Сумрачная пластина
 				Tooltip: ""
 			}
 
@@ -2764,14 +2765,14 @@ Mods: {
 
 			DigitalDisplay: {
 				# Furniture
-				DisplayName: Digital Display
+				DisplayName: Цифровой дисплей
 				# Furniture
-				Tooltip: Right click to increase void damage by 10%
+				Tooltip: Увеличивает пустотный урон на 10%
 			}
 
 			HardlightFabricator: {
-				DisplayName: Hardlight Fabricator
-				Tooltip: Used to craft otherworldly objects and gear
+				DisplayName: Станок по производству твёрдого света
+				Tooltip: Используется для создания потусторонней мебели и экиперовки
 			}
 
 			LockedMeteoriteChest.DisplayName: Meteorite Chest
@@ -2783,12 +2784,12 @@ Mods: {
 			}
 
 			PotGenerator: {
-				DisplayName: Pot Generator
+				DisplayName: Генератор горшков
 				Tooltip:
 					'''
-					Generates pots on top of its surface
-					Can be stacked to hasten the production of the topmost generator
-					'No, not that type of pot'
+					Генерирует горшки на своей верхней поверхности
+					Генераторы можно уложить друг на друго, чтобы ускорить саммый верхний
+					«Нет, я хотел не под горшок»
 					'''
 			}
 
@@ -2798,13 +2799,13 @@ Mods: {
 			}
 
 			TransmutationAltar: {
-				DisplayName: Transmutation Altar
+				DisplayName: Алтарь трансмутации
 				Tooltip:
 					'''
-					Used for crafting
-					Allows the conversion of material and equipment to equivalent but different forms
-					Also counts as a demon altar for crafting
-					Crafting using the altar can be undone
+					Используется для создания предметов
+					Позволяет преобразовывать материалы и экиперовку в их аналоги
+					Может быть использован как демонический алтарь
+					Использование в качестве алтаря может быть отменено
 					'''
 			}
 
@@ -2889,7 +2890,7 @@ Mods: {
 			}
 
 			TwilightGel: {
-				DisplayName: Twilight Gel
+				DisplayName: Сумрачный гель
 				Tooltip: ""
 			}
 
@@ -3527,7 +3528,7 @@ Mods: {
 
 			SandstoneEdge: {
 				DisplayName: Песчаниковый клинок
-				Tooltip: Критические попадания выпускают поток самонаводящихся изумрудных выстрелов, наносящих 50% урона оружия
+				Tooltip: Критические попадания выпускают поток самонаводящихся изумрудных выстрелов, наносящих 50% урона
 			}
 
 			SandstoneWarhammer: {
@@ -3913,17 +3914,17 @@ Mods: {
 			}
 
 			BlueJellyfishStaff: {
-				DisplayName: Blue Jellyfish Staff
-				Tooltip: Fires an energy ball that detonates into blue lighting after traveling forward
+				DisplayName: Посох голубой медузы
+				Tooltip: Выпускает энергетический шар, который быстро останавливается после полёта, а затем взрывается голубым светом
 			}
 
 			GreenJellyfishStaff: {
-				DisplayName: Green Jellyfish Staff
+				DisplayName: Посох зелёной медузы
 				Tooltip:
 					'''
-					Fires 2 green orbs that, upon detonation, release green thunder towards your cursor
-					Green thunder chains off enemies for 90% damage
-					Provides a light source while favorited in the inventory
+					Выпускает 2 зелёных шара, которые перед исчезновением выстреливают молнией в сторону вашего курсора
+					Молния отскакивает от врага к врагу, нанося им 90% урона
+					Вы будете постоянно излучать свет, если предмет находится в избранном в вашем инвентаре
 					'''
 			}
 
@@ -3941,8 +3942,8 @@ Mods: {
 			}
 
 			PinkJellyfishStaff: {
-				DisplayName: Pink Jellyfish Staff
-				Tooltip: Fires pink lightning which chains off enemies for 60% damage
+				DisplayName: Посох розовой медузы
+				Tooltip: Выпускает розовую молнию, отскакивающую от врага к врагу, и наносящую 60% урона следующим поражённым врагам
 			}
 
 			PiscesPuncher: {
@@ -3987,12 +3988,12 @@ Mods: {
 			}
 
 			PurpleJellyfishStaff: {
-				DisplayName: Purple Jellyfish Staff
+				DisplayName: Посох фиолетовой медузы
 				Tooltip:
 					'''
-					Fires 2 purple orbs that, upon detonation, release purple thunder towards your cursor
-					Purple thunder chains off enemies for 70% damage
-					Provides a light source while favorited in the inventory
+					Выпускает 2 фиолетовых шара, которые перед исчезновением выстреливают молнией в сторону вашего курсора
+					Молния отскакивает от врага к врагу, нанося им 70% урона
+					Вы будете постоянно излучать свет, если предмет находится в избранном в вашем инвентаре
 					'''
 			}
 
@@ -4895,17 +4896,17 @@ Mods: {
 			}
 
 			DullPlating: {
-				DisplayName: Dull Plating
+				DisplayName: Покрытие уныния
 				Tooltip: ""
 			}
 
 			DullPlatingWall: {
-				DisplayName: Dull Plating Wall
+				DisplayName: Стена из покрытия уныния
 				Tooltip: ""
 			}
 
 			HardlightBlock: {
-				DisplayName: Hardlight Block
+				DisplayName: Покрытие из твёрдого света
 				Tooltip: ""
 			}
 
@@ -4915,7 +4916,7 @@ Mods: {
 			}
 
 			HardlightAlloy: {
-				DisplayName: Hardlight Alloy
+				DisplayName: Сплав твёрдого света
 				Tooltip: ""
 			}
 
@@ -4925,12 +4926,12 @@ Mods: {
 			}
 
 			HardlightChair: {
-				DisplayName: Hardlight Chair
+				DisplayName: Стул из твёрдого света
 				Tooltip: ""
 			}
 
 			HardlightTable: {
-				DisplayName: Hardlight Table
+				DisplayName: Стол из твёрдого света
 				Tooltip: ""
 			}
 
@@ -5211,26 +5212,26 @@ Mods: {
 			}
 
 			HandCannon: {
-				DisplayName: Hand Cannon
+				DisplayName: Пистолет
 				Tooltip:
 					'''
-					Launches three bullets: the middle bullet deals 100% damage and side bullets deal 50% damage
-					Converts musket balls into explosive bullets
+					Стреляет тремя пулями, средняя из которых наносит 100% урона, а крайние по 50%
+					Превращает мушкетные пули в взрывные
 					'''
 			}
 
 			MineralSpewer: {
-				DisplayName: Soot Spewer
+				DisplayName: Сажамёт
 				Tooltip:
 					'''
-					Covers enemies with combustible powder
-					Enemies covered in powder combust when set aflame, taking all the damage that would've been dealt by the fire debuff instantly
+					Покрывает врагов горючим порошком
+					Противники, покрытые порошком, сильнее воспламеняются, мгновенно получая весь урон, который должен был нанести бафф горения
 					'''
 			}
 
 			AutoClicker: {
-				DisplayName: Auto Clicker
-				Tooltip: Increases attack speed by 10% and makes all items auto swing
+				DisplayName: Автокликер
+				Tooltip: Увеличивает скорость атаки на 10% и дарует всем предметом автовзмах
 			}
 
 			SupernovaEmblem: {
@@ -5422,11 +5423,11 @@ Mods: {
 			}
 
 			GuardianGreatsword: {
-				DisplayName: Guardian Greatsword
+				DisplayName: Большой мечь хранителя
 				Tooltip:
 					'''
-					Strike with 3 slashes
-					The third slash unleashes a wave blades that deal 50% damage
+					Атакует очередью из трёх атак
+					Третий удар высвобождает энергетическую волну, наносящую 50% урона
 					'''
 			}
 
