@@ -345,7 +345,7 @@ Mods: {
 			}
 
 			PutridPinkyRelic: {
-				DisplayName: Реликвия Гнилостной пинки
+				DisplayName: Реликвия Гнилостного пинки
 				Tooltip: ""
 			}
 
@@ -2325,7 +2325,7 @@ Mods: {
 			}
 
 			PutridPinkyMusicBox: {
-				DisplayName: Музыкальная шкатулка (Гнилостная пинки)
+				DisplayName: Музыкальная шкатулка (Гнилостный пинки)
 				Tooltip: ""
 			}
 
@@ -3686,7 +3686,7 @@ Mods: {
 
 			JarOfPeanuts: {
 				DisplayName: Банка арахиса
-				Tooltip: Призывает Гнилостную пинки
+				Tooltip: Призывает Гнилостного пинки
 			}
 
 			Peanut: {
@@ -3704,7 +3704,7 @@ Mods: {
 			}
 
 			PinkyBag: {
-				DisplayName: Мешок с сокровищами (Гнилостная пинки)
+				DisplayName: Мешок с сокровищами (Гнилостный пинки)
 				Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 			}
 
@@ -4364,7 +4364,7 @@ Mods: {
 				DisplayName: Арахисовое масло
 				Tooltip:
 					'''
-					Призывает ручную Гнилостную пинки сражаться за вас
+					Призывает ручную Гнилостного пинки сражаться за вас
 					Она нападает на врагов, замедляя их и высасывая их здоровье
 					Увеличивает скорость регенерации здоровья на 1 ед.
 					'''
@@ -4443,7 +4443,7 @@ Mods: {
 			}
 
 			PutridPinkyTrophy: {
-				DisplayName: Трофей Гнилостной пинки
+				DisplayName: Трофей Гнилостного пинки
 				Tooltip: ""
 			}
 
@@ -5083,7 +5083,7 @@ Mods: {
 			}
 
 			PutridPinkyMask: {
-				DisplayName: Маска Гнилостной пинки
+				DisplayName: Маска Гнилостного пинки
 				Tooltip: ""
 			}
 
@@ -6193,15 +6193,15 @@ Mods: {
 			GlowmothMinion.DisplayName: Illuminant Moth
 			HookTurret.DisplayName: Putrid Turret
 			PutridHook.DisplayName: Putrid Hook
-			PutridPinky1.DisplayName: Гнилостная пинки
+			PutridPinky1.DisplayName: Гнилостный пинки
 
 			PutridPinkyPhase2: {
-				DisplayName: Гнилостная пинки
+				DisplayName: Гнилостный пинки
 
 				BossChecklistIntegration: {
-					EntryName: Гнилостная пинки
+					EntryName: Гнилостный пинки
 					SpawnInfo: Используйте [i:SOTS/JarOfPeanuts] в любом биоме
-					DespawnMessage: Гнилостная пинки больше не пристедует вас.
+					DespawnMessage: Гнилостный пинки больше не пристедует вас.
 				}
 			}
 
@@ -6350,7 +6350,7 @@ Mods: {
 
 		BossChecklist: {
 			BossName: {
-				PutridPinky: Гнилостная пинки
+				PutridPinky: Гнилостный пинки
 				PharaohsCurse: Проклятье Фараона
 				TheAdvisor: The Advisor
 				Polaris: Полярный
@@ -6370,7 +6370,7 @@ Mods: {
 			}
 
 			BossDisappear: {
-				PutridPinky: Гнилостная пинки оставила всех без их арахиса!
+				PutridPinky: Гнилостный пинки оставила всех без их арахиса!
 				PharaohsCurse: ""
 				TheAdvisor: ""
 				Polaris: ""
