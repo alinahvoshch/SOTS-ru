@@ -3,10 +3,10 @@ Mods: {
 		Common: {
 			worldEnter: "[SOTS] Спасибо за игру в Secrets of the Shadows! Мы также советуем вам играть с Secrets Of The Shadows Texture Pack, его вы этого ещё не сделали."
 			worldEnterThanks: "[SOTS] Спасибо за использование Secrets Of The Shadows Texture Pack! Приятной игры!"
-			Dedicated: Dedicated Item
-			BlastDoor: Blast Door
-			Dresser: Dresser
-			Unbound: Unbound
+			Dedicated: ~ Посвящённый предмет ~
+			BlastDoor: Взрывоустойчивая дверь
+			Dresser: Камод
+			Unbound: NONE
 			ACZV: Automatically consumed when void drops below zero
 			SOTSTexturePackName: Secrets of the Shadows Texture Pack
 			Void: "Пустота: "
@@ -19,9 +19,9 @@ Mods: {
 			VoidSDouble: "{0} void + {1}summon {2}"
 			VoidSPercent: "[c/9748c6:??? ед. пустотного {0} и {0} призывателя]"
 			CV: Расходует {0} ед. пустоты
-			GenSOTSOres: Generating SOTS Ores
-			GenSOTSGeodes: Generating Fancy Geodes
-			InsigniaNerf: "[SOTS]: Until Lux is defeated, has limited effects on flight duration and mobility"
+			GenSOTSOres: Генерация руд Secrets of the Shadows...
+			GenSOTSGeodes: Создание причудливых жеод...
+			InsigniaNerf: "[SOTS]: Бонусы к продолжительности полёта и мобильности снижены до победы над Люкс"
 			ArchaeologistMap: Anomaly
 			ArchaeologistItemMap: "Teleported "
 			ArchaeologistShopCondition: In a certain location
@@ -186,7 +186,7 @@ Mods: {
 		BossAwoken: {
 			Advisor: The Advisor has awoken!
 			PharaohsCurse: Проклятье Фараона пробудилось!
-			Lux: Lux has awoken!
+			Lux: Люкс пробудилась!
 			Glowmoth: Светляк пробудился!
 			Polaris: Полярный пробудился!
 		}
@@ -325,11 +325,11 @@ Mods: {
 			}
 
 			VisionAmulet: {
-				DisplayName: Elemental Amulet
+				DisplayName: Элементальный амулет
 				Tooltip:
 					'''
 					Epic Gamer
-					'Resonates with your ambitions'
+					«Подстать вашим амбициям»
 					'''
 			}
 
@@ -340,7 +340,7 @@ Mods: {
 			}
 
 			HoloSwordBanner: {
-				DisplayName: Holo Blade Banner
+				DisplayName: Знамя голографического клинка
 				Tooltip: ""
 			}
 
@@ -365,7 +365,7 @@ Mods: {
 			}
 
 			LuxRelic: {
-				DisplayName: Lux Relic
+				DisplayName: Реликвия Люкс
 				Tooltip: ""
 			}
 
@@ -380,7 +380,7 @@ Mods: {
 			}
 
 			BlueSlimerBanner: {
-				DisplayName: Blue Slimer Banner
+				DisplayName: Знамя синего слизневика
 				Tooltip: ""
 			}
 
@@ -420,7 +420,7 @@ Mods: {
 			}
 
 			ArcticGoblinBanner: {
-				DisplayName: Arctic Goblin Banner
+				DisplayName: Знамя арктического гоблина
 				Tooltip: ""
 			}
 
@@ -450,12 +450,12 @@ Mods: {
 			}
 
 			HoloSlimeBanner: {
-				DisplayName: Holo Slime Banner
+				DisplayName: Знамя голографического слизня
 				Tooltip: ""
 			}
 
 			HoloEyeBanner: {
-				DisplayName: Holo Eye Banner
+				DisplayName: Знамя голографического глаза
 				Tooltip: ""
 			}
 
@@ -465,12 +465,12 @@ Mods: {
 			}
 
 			FluxSlimeBanner: {
-				DisplayName: Flux Slime Banner
+				DisplayName: Знамя флюсового слизня
 				Tooltip: ""
 			}
 
 			LesserWispBanner: {
-				DisplayName: Lesser Wisp Banner
+				DisplayName: Знамя меньшего огонька
 				Tooltip: ""
 			}
 
@@ -715,7 +715,7 @@ Mods: {
 			}
 
 			LuxBag: {
-				DisplayName: Treasure Bag
+				DisplayName: Мешок с сокровищами (Люкс)
 				Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 			}
 
@@ -2310,7 +2310,7 @@ Mods: {
 			}
 
 			LuxMusicBox: {
-				DisplayName: Music Box (Lux)
+				DisplayName: Музыкальная шкатулка (Люкс)
 				Tooltip: ""
 			}
 
@@ -4211,27 +4211,27 @@ Mods: {
 			}
 
 			ArcaneAqueduct: {
-				DisplayName: Arcane Aqueduct
-				Tooltip: Surrounds you with 2 orbital projectiles
+				DisplayName: Арканический акведук
+				Tooltip: Вокруг вас будет вращаться водяных шара, наносящих урон
 			}
 
 			BackupBow: {
-				DisplayName: Backup Bow
-				Tooltip: Attaches a bow to your back which fires arrows behind you for 50% damage
+				DisplayName: Лук поддержки
+				Tooltip: Прикрепляет к вашей спине лук, который будет стрелять позади вас стрелами, наносящими 50% урона
 			}
 
 			Baguette: {
-				DisplayName: Crusty Baguette
+				DisplayName: Хрустящий багет
 				Tooltip:
 					'''
-					Killing enemies will drop baguette crumbs
-					Pickup baguette crumbs to increase the range and damage of your baguette, and heal lost life
-					'Surrender is not an option'
+					С убитых врагов будут выпадать крошки багета
+					Подбор этих крошек увеличит дальность атаки и урон багета, а также востановит часть потерянного здоровья
+					«И никакой пощады»
 					'''
 			}
 
 			BaguetteCrumb: {
-				DisplayName: Baguette Crumb
+				DisplayName: Крошка багета
 				Tooltip: ""
 			}
 
@@ -4364,9 +4364,9 @@ Mods: {
 				DisplayName: Арахисовое масло
 				Tooltip:
 					'''
-					Призывает ручную Гнилостного пинки сражаться за вас
+					Призывает ручного Гнилостного пинки сражаться за вас
 					Она нападает на врагов, замедляя их и высасывая их здоровье
-					Увеличивает скорость регенерации здоровья на 1 ед.
+					Ускоряет регенерацию здоровья на 1 ед. (0,5 ОЗ/сек)
 					'''
 			}
 
@@ -4428,12 +4428,12 @@ Mods: {
 			}
 
 			AlchemistsCharm: {
-				DisplayName: Alchemist's Charm
+				DisplayName: Амулет алхимика
 				Tooltip:
 					'''
-					Increases healing and mana received from potions by 100
-					Increases buff duration by 67%
-					Increases life regeneration by 2 and reduces the cooldown of healing potions by 25%
+					Увеличивает количество ицеления и маны, получаемых от зелий, на 100 ед.
+					Увеличивает длительность баффа на 67%
+					Ускоряет регенерацию здоровья на 2 ед. (1 ОЗ/сек) и снижает длительность послезельевой болезни на 25%
 					'''
 			}
 
@@ -5460,7 +5460,7 @@ Mods: {
 			}
 
 			ChimeraBanner: {
-				DisplayName: Chimera Banner
+				DisplayName: Знамя химеры
 				Tooltip: ""
 			}
 
@@ -6149,12 +6149,12 @@ Mods: {
 
 			Lux: {
 				# Lux
-				DisplayName: Lux
+				DisplayName: Люкс
 
 				BossChecklistIntegration: {
-					EntryName: Lux
-					SpawnInfo: Anger a Chaos Spirit
-					DespawnMessage: Lux is no longer after you
+					EntryName: Люкс
+					SpawnInfo: Разгневайте духа хаоса
+					DespawnMessage: Люкс больше не приследует вас.
 				}
 			}
 
@@ -6193,15 +6193,15 @@ Mods: {
 			GlowmothMinion.DisplayName: Illuminant Moth
 			HookTurret.DisplayName: Putrid Turret
 			PutridHook.DisplayName: Putrid Hook
-			PutridPinky1.DisplayName: Гнилостный пинки
+			PutridPinky1.DisplayName: Гнилотный пинки
 
 			PutridPinkyPhase2: {
-				DisplayName: Гнилостный пинки
+				DisplayName: Гнилотный пинки
 
 				BossChecklistIntegration: {
-					EntryName: Гнилостный пинки
+					EntryName: Гнилотный пинки
 					SpawnInfo: Используйте [i:SOTS/JarOfPeanuts] в любом биоме
-					DespawnMessage: Гнилостный пинки больше не пристедует вас.
+					DespawnMessage: Гнилотный пинки больше не пристедует вас.
 				}
 			}
 
@@ -6242,7 +6242,7 @@ Mods: {
 			TidalConstruct.DisplayName: Tidal Construct
 			TidalSpirit.DisplayName: Tidal Spirit
 			# Inferno
-			LesserWisp.DisplayName: Lesser Wisp
+			LesserWisp.DisplayName: Меньший огонёк
 			# Phase
 			PhaseAssaulterHead.DisplayName: Phase Assaulter
 			PhaseAssaulterBody.DisplayName: Phase Assaulter
@@ -6271,17 +6271,17 @@ Mods: {
 			# Anomaly
 			Ultracap.DisplayName: Ultracap
 			Planetoid.DisplayName: Planetoid
-			ArcticGoblin.DisplayName: Arctic Goblin
+			ArcticGoblin.DisplayName: Арктический гоблин
 			BloomingHook.DisplayName: Blooming Hook
-			BlueSlimer.DisplayName: Blue Slimer
-			FluxSlime.DisplayName: Flux Slime
+			BlueSlimer.DisplayName: Синий слизневик
+			FluxSlime.DisplayName: Флюсовый слизень
 			FluxSlimeBall.DisplayName: Flux Slime Hook
 			Ghast.DisplayName: Упырь
 			FlamingGhast.DisplayName: Пылающий упырь
 			BleedingGhast.DisplayName: Кровоточащий упырь
-			HoloBlade.DisplayName: Holo Blade
-			HoloEye.DisplayName: Holo Eye
-			HoloSlime.DisplayName: Holo Slime
+			HoloBlade.DisplayName: Голографический клинок
+			HoloEye.DisplayName: Голографический глаз
+			HoloSlime.DisplayName: Голографический слизень
 			knuckles.DisplayName: Knuckles
 			LostSoul.DisplayName: Потерянная душа
 			Maligmor.DisplayName: Малигмор
@@ -6298,8 +6298,8 @@ Mods: {
 			PhantarayBig.DisplayName: Призрачный скат
 			PhantarayCore.DisplayName: Призрачный скат
 			NewPolaris.DisplayName: Полярный
-			Chimera.DisplayName: Chimera
-			ChimeraSnake.DisplayName: Chimera Snake
+			Chimera.DisplayName: Химера
+			ChimeraSnake.DisplayName: Змея химеры
 		}
 
 		Bestiary: {
@@ -6350,11 +6350,11 @@ Mods: {
 
 		BossChecklist: {
 			BossName: {
-				PutridPinky: Гнилостный пинки
+				PutridPinky: Гнилотный пинки
 				PharaohsCurse: Проклятье Фараона
 				TheAdvisor: The Advisor
 				Polaris: Полярный
-				Lux: Lux
+				Lux: Люкс
 				SubspaceSerpent: Subspace Serpent
 				Glowmoth: Светляк
 			}
@@ -6364,13 +6364,13 @@ Mods: {
 				PharaohsCurse: Нажмите на {0} в Проклятой Пирамиде
 				TheAdvisor: Destroy the 4 tethered Otherworldly Constructs of the Planetarium
 				Polaris: Активируйте {0} в снегах с помощью {1}
-				Lux: Anger a Chaos Spirit
+				Lux: Разгневайте духа хаоса
 				SubspaceSerpent: Tear a dimensional rift in hell by detonating a {0}
 				Glowmoth: Разрушьте светящийся шёлковый кокон или призовите вручную с помощью {0} в грибном биоме
 			}
 
 			BossDisappear: {
-				PutridPinky: Гнилостный пинки оставила всех без их арахиса!
+				PutridPinky: Гнилотный пинки оставил всех без их арахиса!
 				PharaohsCurse: ""
 				TheAdvisor: ""
 				Polaris: ""
@@ -6381,87 +6381,87 @@ Mods: {
 		}
 
 		VisionAmuletTextList: {
-			0: Reduces damage taken by 10%
-			1: Increases max minions and sentries by 1
-			2: Increases attack speed by 12%
-			3: Increases critical strike chance by 10%
-			4: Increases critical strike damage by 30%
+			0: Снижает получаемый урон на 10%
+			1: Увеличивает максимальное количество слотов миньонов и стражей на 1
+			2: Увеличивает скорость атаки на 12%
+			3: Увеличивает шанс критического удара на 10%
+			4: Увеличивает урон критического удара на 30%
 			5:
 				'''
-				Increases healing received from potions by 40
-				Increases life regeneration by 2 
+				Увеличивает количество исцеления, получаемое от зелий, на 40 ед.
+				Ускоряет регенерацию здоровья на 2 ед. (1 ОЗ/сек)
 				'''
 			6:
 				'''
-				Increases max life by 20
-				Increases damage by 10%
+				Увеличивает максимальный запас здоровья на 20
+				Увеличивает урон на 10%
 				'''
-			7: Increases void regeneration speed by 20%
+			7: Увеличивает скорость восполнения пустоты на 20%
 		}
 
 		VisionAmuletTextList2: {
 			0:
 				'''
 
-				Shops prices lowered by 20%
+				Снижает цены в магазинах на 20%
 				'''
 			1:
 				'''
 
-				Increases buff duration by 25%
-				Decreases mana cost by 10% 
+				Увеличивает длительность бафа на 25%
+				Снижает расход маны на 10% 
 				'''
 			2:
 				'''
 
-				Increases melee speed and movement speed by 10%
-				Increases jump speed
+				Увеличивает скорость ближнего боя и передвижения на 10%
+				Увеличивает высоту прыжка
 				'''
 			3:
 				'''
 
-				Provides access to Workbench, Furnace, Anvil, and Alchemy Table crafting stations
-				Increases max mana and mana received from potions by 40
+				Дарует доступ к рецептам верстака, печи, наковальни и алхимического стола
+				Увеличивает максимальный запас маны и количество маны, получаемое от зелий на 40 ед.
 				'''
 			4:
 				'''
 
-				Increases all damage by 50% of the increases received to any other damage type from other sources
+				Наносимый урон получит 50% бонуса от всех прибавок к несовпадающим типам урона
 				'''
 		}
 
 		VoidmageIncubatorTextList: {
-			0: Reduces damage taken by 5%
-			1: Increases damage by 8%
+			0: Снижает получаемый урон на 5%
+			1: Увеличивает урон на 8%
 			2:
 				'''
-				Increases movement speed by 10%
-				Increases jump speed
+				Увеличивает скорость передвижения на 10%
+				Увеличивает скорость прыжка
 				'''
-			3: Increases critical strike damage by 20%
-			4: Increases critical strike chance by 6%
-			5: Increases max life by 40
-			6: Increases life regeneration by 2
-			7: Increases max void by 40
+			3: Увеличивает урон критического удара на 20%
+			4: Увеличивает шанс критического удара на 6%
+			5: Увеличивает максимальный запас здоровья на 40 ед.
+			6: Ускоряет регенерацию здоровья на 2 ед. (1 ОЗ/сек)
+			7: Увеличивает максимальный запас пустоты на 40 ед.
 		}
 
-		DiamondRingText: Increase damage based on defense, then decreases defense by a third of the damage buff
+		DiamondRingText: Увеличивает урон в зависимости от защиты, а затем снижает вашу защиту на треть от полученного бонуса к урону
 		DiamondRingText2:
 			'''
 
-			Increases damage by {0}%
-			Decreases defense by {1}
+			Увеличивает урон на {0}%
+			Снижает защиту на {1} ед.
 			'''
 
 		PrecariousClusterTextList: {
-			0: Reduces damage dealt by 10%
-			1: Increases life regeneration by 1, up to 4 total
-			2: Reduces endurance by 10%
-			3: Increases defense by 2, up to 8 total
-			4: Reduces movespeed by 20%
-			5: Increases movement speed by 5%, up to 20% total
-			6: Reduces gravity
-			7: Increases magic damage by 3%, up to 12% total
+			0: Снижает наносимый урон на 10%
+			1: Скоряет регенерацию здоровья на 1 ед. (0,5 ОЗ/сек), если это значение не превышает 4 ед.
+			2: Снижает сопротивление к урону на 10%
+			3: Увеличивает защиту на 2 ед., если это значение не превышает 8 ед.
+			4: Снижает защиту на 20%
+			5: Увеличивает скорость передвижения на 5%, если это значение не превышает 20%
+			6: Ослабляет влияние гравиации
+			7: Увеличивает магичсекий урон на 3%, если это значение не превышает 12%
 		}
 
 		TerminalClusterTextList: {
@@ -6729,7 +6729,7 @@ Mods: {
 			FlowerSeed.DisplayName: Flower Seed
 			FlowerStrike.DisplayName: Flower Strike
 			FluidFollower.DisplayName: my curse behind me
-			FluxSlimeBall.DisplayName: Flux Slime Ball
+			FluxSlimeBall.DisplayName: Шар флюсового слизня
 			FlyingSnake.DisplayName: Snakey Boi
 			FriendlyChaosEraser.DisplayName: Hyperlight Eraser
 			FriendlyCurseBall.DisplayName: Curse
@@ -6779,7 +6779,7 @@ Mods: {
 			HellbreakerCrusher.DisplayName: Hellbreaker Crusher
 			HellCrush.DisplayName: Hell Crush
 			HellfuryCrush.DisplayName: Hellfury Crush
-			HoloEye.DisplayName: Holo Eye
+			HoloEye.DisplayName: Голографический глащ
 			HoloMissile.DisplayName: Holo Missile
 			HoloPlatform.DisplayName: Holo Platform
 			HostileJavelin.DisplayName: Ice Spear
@@ -6810,7 +6810,7 @@ Mods: {
 			LemegetonWispGreen.DisplayName: Lemegeton Wisp
 			LemegetonWispPurple.DisplayName: Lemegeton Wisp
 			LemegetonWispRed.DisplayName: Lemegeton Wisp
-			LesserWispLaser.DisplayName: Lesser Wisp Laser
+			LesserWispLaser.DisplayName: Лазер меньшего огонька
 			LightningLash.DisplayName: Lightning Lash
 			LightningLashTrail.DisplayName: Lightning Trail
 			LightspeedBlade.DisplayName: Shadow Blade
