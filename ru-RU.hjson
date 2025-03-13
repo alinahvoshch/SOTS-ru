@@ -214,7 +214,7 @@ Mods: {
 		}
 
 		DropCondition: {
-			DefeatSubspaceSerpent: Drops if Subspace Serpent has been defeated
+			DefeatSubspaceSerpent: Выпадает после победы над Субпространственным змем
 			DefeatAdvisor: Drops if Advisor has been defeated
 			DefeatPharaohsCurseBefor: До победы над Проклятьем Фараона
 			DefeatPharaohsCurse: После победы над Проклятьем Фараона
@@ -275,8 +275,8 @@ Mods: {
 				DisplayName: Длинный лук из древней стали
 				Tooltip:
 					'''
-					Перед стельбой необходимо натянуть тетеву
-					Стелы летять на большой скорости и раздлетаются на осколки, наносящие 100% урона
+					Перед стрельбой необходимо натянуть тетеву
+					Стелы летят на большой скорости и раздлетаются на осколки, наносящие 100% урона
 					'''
 			}
 
@@ -284,7 +284,7 @@ Mods: {
 				DisplayName: Меч из древней стали
 				Tooltip:
 					'''
-					При поподании, наносит 80% урона по площади
+					При попадании, наносит 80% урона по площади
 					Критические удары наносят на 50% больше урона
 					Также может наложить на цель складывающийся дебафф кровотечения, наносящей 5 ед. урона в секунду
 					'''
@@ -360,7 +360,7 @@ Mods: {
 			}
 
 			PolarisRelic: {
-				DisplayName: Релкивия Полярного
+				DisplayName: Реликвия Полярного
 				Tooltip: ""
 			}
 
@@ -370,7 +370,7 @@ Mods: {
 			}
 
 			SubspaceSerpentRelic: {
-				DisplayName: Subspace Serpent Relic
+				DisplayName: Реликвия Субпространственного змея
 				Tooltip: ""
 			}
 
@@ -440,12 +440,12 @@ Mods: {
 			}
 
 			SittingMushroomBanner: {
-				DisplayName: Sitting Mushroom Banner
+				DisplayName: Знамя сидящего гриба
 				Tooltip: ""
 			}
 
 			WallMimicBanner: {
-				DisplayName: Занмя стены-мимика
+				DisplayName: Знамя стены-мимика
 				Tooltip: ""
 			}
 
@@ -460,7 +460,7 @@ Mods: {
 			}
 
 			TwilightDevilBanner: {
-				DisplayName: Twilight Devil Banner
+				DisplayName: Знамя сумрачного дьявола
 				Tooltip: ""
 			}
 
@@ -505,7 +505,7 @@ Mods: {
 			}
 
 			TwilightScouterBanner: {
-				DisplayName: Twilight Scouter Banner
+				DisplayName: Знамя сумрочного разведчика
 				Tooltip: ""
 			}
 
@@ -520,61 +520,61 @@ Mods: {
 			}
 
 			PhaseSpeederBanner: {
-				DisplayName: Phase Speeder Banner
+				DisplayName: Знамя фазового ускорителя
 				Tooltip: ""
 			}
 
 			PhaseAssaulterBanner: {
-				DisplayName: Phase Assaulter Banner
+				DisplayName: Знамя фазового нападающего
 				Tooltip: ""
 			}
 
 			Apocalypse: {
 				# Celestial
-				DisplayName: Apocalypse
+				DisplayName: Апокалипсис
 				# Celestial
 				Tooltip:
 					'''
-					Release green thunder towards your cursor
-					Green thunder chains off enemies for 90% damage
-					Provides a light source while favorited in the inventory
-					'Power straight from the underworld'
+					Выпускает зелёный гром в сторону вашего курсора
+					Зелёный гром отскакивает от врага к врагу, нанося им 90% урона
+					Вы будете постоянно излучать свет, если предмет находится в избраннов в вашем инвентаре
+					«Сила самой преисподней»
 					'''
 			}
 
 			CataclysmSpheres: {
-				DisplayName: Cataclysm Spheres
-				Tooltip: Throw a cluster of charged bombs that explodes into homing cataclysm lightning for 100% damage
+				DisplayName: Сферы катаклизма
+				Tooltip: Бросает несколько заряженных бомб, взрывающихся самонаводящимися молниями каталклизма, наносящими 100% урона
 			}
 
 			CatalystBomb: {
-				DisplayName: Catalyst Bomb
-				Tooltip: "'It's almost strong enough to tear a hole between dimensions, if only it were used in the right place'"
+				DisplayName: Бомба-катализатор
+				Tooltip: «Её сил почти достаточно, чтобы проделать дыру между измерениями, если использовать её в нужном месте»
 			}
 
 			ContinuumCollapse: {
-				DisplayName: Continuum Collapse
+				DisplayName: Коллапс континуума
 				Tooltip:
 					'''
-					'Devour all that is infinite, including your system's memory'
-					Can hit up to 15 enemies at a time
-					Will not hurt players
+					«Бесконечно поглощает всё вокруг, включая память вашего устройтва»
+					Может бробить до 14 врагов за раз
+					Не наносит урона игрокам
 					'''
 			}
 
 			DanceOfDeath: {
-				DisplayName: Dance of Death
-				Tooltip: Cast many demon scythes around you
+				DisplayName: Танец смерти
+				Tooltip: Выпускает много демонических кос вокруг вас
 			}
 
 			DimensionShredder: {
-				DisplayName: Dimension Shredder
+				DisplayName: Измельчитель измерений
 				Tooltip:
 					'''
 					Summons dimensional wisps around you that fire towards your cursor
 					Right click to summon a cluster of dimensional wisps
 					Bullets travel through blocks and release lightning for 50% damage
-					66% chance to not consume ammo
+					66%-ный шанс не потратить боеприпасы
 					'Tear a rift through your enemies'
 					'''
 			}
@@ -2335,7 +2335,7 @@ Mods: {
 			}
 
 			SubspaceSerpentMusicBox: {
-				DisplayName: Music Box (Subspace Serpent)
+				DisplayName: Музыкальная шкатулка (Субпространственный змей)
 				Tooltip: ""
 			}
 
@@ -4236,14 +4236,15 @@ Mods: {
 			}
 
 			BulwarkOfTheAncients: {
-				DisplayName: Bulwark of the Ancients
+				DisplayName: Бастион Древних
 				Tooltip:
 					'''
-					Grants immunity to knockback and fire blocks
-					Grants immunity to most debuffs
-					Increases void gain by 2, life regeneration by 1, reduces damage taken by 5%, and increases critical strike chance by 4%
-					Surrounds you with 4 orbital projectiles
-					Projectiles disabled when hidden
+					Даёт невосприимчивость к отбрасыванию и огненным блокам
+					Даёт иммунитет к большенству дебаффов
+					Увеличивает скорость восполнения пустоты на 2 ед. и скорость регенерации здоровья на 1 ед. (0,5 ОЗ/сек)
+					Снижает получаемый урон на 5% и увеличивает шанс критического удара на 4%
+					Вокруг вас будет двазаться 4 снаряды
+					Снаряды отключаются при выключении видимости аксесуара
 					'''
 			}
 
@@ -4432,13 +4433,13 @@ Mods: {
 				Tooltip:
 					'''
 					Увеличивает количество ицеления и маны, получаемых от зелий, на 100 ед.
-					Увеличивает длительность баффа на 67%
+					Увеличивает длительность баффов на 67%
 					Ускоряет регенерацию здоровья на 2 ед. (1 ОЗ/сек) и снижает длительность послезельевой болезни на 25%
 					'''
 			}
 
 			PlanetoidBanner: {
-				DisplayName: Planetoid Banner
+				DisplayName: Знамя планетоида
 				Tooltip: ""
 			}
 
@@ -4448,7 +4449,7 @@ Mods: {
 			}
 
 			UltracapBanner: {
-				DisplayName: Ultracap Banner
+				DisplayName: Знамя энергетической вуали
 				Tooltip: ""
 			}
 
@@ -6208,17 +6209,17 @@ Mods: {
 			SubspaceEye.DisplayName: Subspace Gaze
 
 			SubspaceSerpentHead: {
-				DisplayName: Subspace Serpent
+				DisplayName: Субпространственный змей
 
 				BossChecklistIntegration: {
-					EntryName: Subspace Serpent
-					SpawnInfo: Tear a dimensional rift in hell by detonating a [i:SOTS/CatalystBomb]
-					DespawnMessage: Subspace Serpent is no longer after you
+					EntryName: Субпространственный змей
+					SpawnInfo: Разружте пространственую брешь в преисподней с помощью [i:SOTS/CatalystBomb]
+					DespawnMessage: Субпространственный змей больше не приследует вас.
 				}
 			}
 
-			SubspaceSerpentBody.DisplayName: Subspace Serpent
-			SubspaceSerpentTail.DisplayName: Subspace Serpent
+			SubspaceSerpentBody.DisplayName: Субпространственный змей
+			SubspaceSerpentTail.DisplayName: Субпространственный змей
 			# Constructs
 			ChaosConstruct.DisplayName: Chaos Construct
 			ChaosRubble.DisplayName: Chaos Construct Chassis
@@ -6244,10 +6245,10 @@ Mods: {
 			# Inferno
 			LesserWisp.DisplayName: Меньший огонёк
 			# Phase
-			PhaseAssaulterHead.DisplayName: Phase Assaulter
-			PhaseAssaulterBody.DisplayName: Phase Assaulter
-			PhaseAssaulterTail.DisplayName: Phase Assaulter
-			PhaseSpeeder.DisplayName: Phase Speeder
+			PhaseAssaulterHead.DisplayName: Фазовый нападающий
+			PhaseAssaulterBody.DisplayName: Фазовый нападающий
+			PhaseAssaulterTail.DisplayName: Фазовый нападающий
+			PhaseSpeeder.DisplayName: Фазовый ускоритель
 			# TreasureSlimes
 			TreasureSlimes.DisplayName: Драгоценный слизень
 			BasicTreasureSlime.DisplayName: Драгоценный слизень
@@ -6269,13 +6270,13 @@ Mods: {
 			}
 
 			# Anomaly
-			Ultracap.DisplayName: Ultracap
-			Planetoid.DisplayName: Planetoid
+			Ultracap.DisplayName: Энергетическая вуаль
+			Planetoid.DisplayName: Планетоид
 			ArcticGoblin.DisplayName: Арктический гоблин
-			BloomingHook.DisplayName: Blooming Hook
+			BloomingHook.DisplayName: Цветущый страж
 			BlueSlimer.DisplayName: Синий слизневик
 			FluxSlime.DisplayName: Флюсовый слизень
-			FluxSlimeBall.DisplayName: Flux Slime Hook
+			FluxSlimeBall.DisplayName: Крюк флюсового слизня
 			Ghast.DisplayName: Упырь
 			FlamingGhast.DisplayName: Пылающий упырь
 			BleedingGhast.DisplayName: Кровоточащий упырь
@@ -6288,11 +6289,11 @@ Mods: {
 			MaligmorChild.DisplayName: Малигмор
 			NatureSlime.DisplayName: Цветочный слизень
 			PhaseEye.DisplayName: Phase Eye
-			SittingMushroom.DisplayName: Sitting Mushroom
+			SittingMushroom.DisplayName: Сидящий гриб
 			SnakePot.DisplayName: Змея в кувшине
 			Teratoma.DisplayName: Тератома
-			TwilightDevil.DisplayName: Twilight Devil
-			TwilightScouter.DisplayName: Twilight Scouter
+			TwilightDevil.DisplayName: Сумрачный дьявол
+			TwilightScouter.DisplayName: Сумрачный разведчик
 			WallMimic.DisplayName: Стена-мимик
 			Snake.DisplayName: Змея
 			PhantarayBig.DisplayName: Призрачный скат
@@ -6355,7 +6356,7 @@ Mods: {
 				TheAdvisor: The Advisor
 				Polaris: Полярный
 				Lux: Люкс
-				SubspaceSerpent: Subspace Serpent
+				SubspaceSerpent: Субпространственный змей
 				Glowmoth: Светляк
 			}
 
@@ -6365,7 +6366,7 @@ Mods: {
 				TheAdvisor: Destroy the 4 tethered Otherworldly Constructs of the Planetarium
 				Polaris: Активируйте {0} в снегах с помощью {1}
 				Lux: Разгневайте духа хаоса
-				SubspaceSerpent: Tear a dimensional rift in hell by detonating a {0}
+				SubspaceSerpent: Разрушите пространственную брешь с помощью {0}
 				Glowmoth: Разрушьте светящийся шёлковый кокон или призовите вручную с помощью {0} в грибном биоме
 			}
 
@@ -6408,7 +6409,7 @@ Mods: {
 			1:
 				'''
 
-				Увеличивает длительность бафа на 25%
+				Увеличивает длительность баффов на 25%
 				Снижает расход маны на 10% 
 				'''
 			2:
