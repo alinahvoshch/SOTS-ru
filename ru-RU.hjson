@@ -7,7 +7,7 @@ Mods: {
 			BlastDoor: Взрывоустойчивая дверь
 			Dresser: Камод
 			Unbound: NONE
-			ACZV: Automatically consumed when void drops below zero
+			ACZV: Автоматически потребляется, когда пустота падает ниже нуля
 			SOTSTexturePackName: Secrets of the Shadows Texture Pack
 			Void: "Пустота: "
 			Damage: урона
@@ -16,118 +16,118 @@ Mods: {
 			VoidR: "[c/9748c6:{0} ед. пустотного и стелкового {1}]"
 			VoidM2: "[c/9748c6:{0} ед. пустотного и магического {1}]"
 			VoidS: "[c/9748c6:{0} ед. пустотного {1} и {1} призывателя]"
-			VoidSDouble: "{0} void + {1}summon {2}"
+			VoidSDouble: "{0} пкстотного + {1}призываетеля {2}"
 			VoidSPercent: "[c/9748c6:??? ед. пустотного {0} и {0} призывателя]"
 			CV: Расходует {0} ед. пустоты
 			GenSOTSOres: Генерация руд Secrets of the Shadows...
 			GenSOTSGeodes: Создание причудливых жеод...
 			InsigniaNerf: "[SOTS]: Бонусы к продолжительности полёта и мобильности снижены до победы над Люкс"
 			ArchaeologistMap: Anomaly
-			ArchaeologistItemMap: "Teleported "
-			ArchaeologistShopCondition: In a certain location
-			VoidAnomalyCrafting: Wormhole conversion
-			TesseractInventory: Tesseract Item
-			TesseractInvalid: Invalid item for clone usage
+			ArchaeologistItemMap: "Телепортирован "
+			ArchaeologistShopCondition: В определённой локации
+			VoidAnomalyCrafting: Чревоточная трансмутауия
+			TesseractInventory: Тессерактовый предмет
+			TesseractInvalid: Предмет не подходят для клонирования
 			TesseractAwaiting: "{0} aligned clones are awaiting usage specifications"
 			TesseractUsage: "{0} aligned clones will use {1} fire {2}"
-			TesseractUsageContinuous: continuously
-			TesseractUsageDuration: for {0} seconds
-			TesseractUsagePrimary: primary
-			TesseractUsageSecondary: secondary
-			Solar0: Sol
-			Solar1: Mercurius
-			Solar2: Venus
-			Solar3: Terra
-			Solar4: Mars
-			Solar5: Jupiter
-			Solar6: Saturnus
-			Solar7: Uranus
-			Solar8: Neptunus
-			Solar9: Pluto
+			TesseractUsageContinuous: непрерывно
+			TesseractUsageDuration: на {0} секунд
+			TesseractUsagePrimary: основная
+			TesseractUsageSecondary: дополнительная
+			Solar0: Солнце
+			Solar1: Меркурий
+			Solar2: Венера
+			Solar3: Терра
+			Solar4: Марс
+			Solar5: Юпитер
+			Solar6: Сатурн
+			Solar7: Уран
+			Solar8: Нептун
+			Solar9: Плутон
 		}
 
 		ContainerName: {
-			NaturePlatingDresserTile: Nature Plating Dresser
-			EarthenPlatingDresserTile: Earthen Plating Dresser
-			PermafrostPlatingDresserTile: Permafrost Plating Dresser
+			NaturePlatingDresserTile: Заросший комод
+			EarthenPlatingDresserTile: Покрытый землёй комод
+			PermafrostPlatingDresserTile: Комод вечной мерзлоты
 			AncientGoldDresser: Комод из древнего золота
 		}
 
 		ModifyWorldGenTasks: {
-			GeneratingSurfaceStructures: Generating Surface Structures
-			GeneratingAbandonedVillage: Generating Abandoned Village
-			GeneratingSkyArtifacts: Generating Sky Artifacts
-			GeneratingAPyramid: Generating A Pyramid
-			GeneratingGemStructures: Generating Gem Structures
+			GeneratingSurfaceStructures: Создание наземных структур
+			GeneratingAbandonedVillage: Создание заброшенной деревни
+			GeneratingSkyArtifacts: Создание небесных артефактов
+			GeneratingAPyramid: Создание пирамиды
+			GeneratingGemStructures: Создание структур драгоценных камней
 		}
 
-		AdjacentDesertGeneration.SEverywhere: Sand is irritating and gets everywhere!
+		AdjacentDesertGeneration.SEverywhere: Ветер развевает песок повсюду!
 
 		Configuration: {
 			Header: {
 				UI: UI
-				GS: Graphics Settings
-				TPS: Texture Pack Settings
-				GPS: Gameplay Settings
-				BAL: Balance Changes
+				GS: Графические настройки
+				TPS: Настройки наборов текстур
+				GPS: Геймплейные настройки
+				BAL: Изменения баланса
 			}
 
 			Label: {
 				Config: Config
 				SConfig: Server Config
-				VBX: Void Bar X
-				VBY: Void Bar Y
-				LVB: Lock Void Bar
-				AVBD: Alternative Void Bar Direction
-				AVBS: Alternative Void Bar Style
-				VBTT: Void Bar Top Text
-				VBHT: Void Bar Hover Text
-				SVBT: Simple Void Bar Text
-				SVBF: Simple Void Bar Fill
+				VBX: Координата X шкалы пустоты
+				VBY: Координата Y шкалы пустоты
+				LVB: Закрепить шкалу пустоты
+				AVBD: Альтернативное направление шкалы пустоты
+				AVBS: Альтернативный стиль шкалы пустоты
+				VBTT: Текст над шкалой пустоты
+				VBHT: Текст под шкалой пкстоты
+				SVBT: Упрошённый текст шкалы пустоты
+				SVBF: Упрощённое наполнение шкалы пкстоты
 				PM: Performance Mode
-				CTF: Colored Time Freeze
-				AVE: Additional Visual Effects
-				SHT: Starter House Type (Upon World Generation)
-				NINS: Nerf Soaring Insignia Before Lux
+				CTF: Цветная остановка времени
+				AVE: Дополнительные визуальные эффекты
+				SHT: Тип начального дома (генерируемого во время создания мира)
+				NINS: Ослабленная парящая эмблема до Люкс
 			}
 
 			Tooltip: {
 				VBX:
 					'''
-					The Void Bar's horizontal position on the screen
-					Measured in pixels from left
+					Горизонтальная позиция шкалы пустоты на экране
+					Отсчитывается в писелях слева
 					'''
 				VBY:
 					'''
-					The Void Bar's vertical position on the screen
-					Measured in pixels from top
+					Вертикальная позиция шкалы пустоты на экране
+					Отсчитывается в писелях сверху
 					'''
 				LVB:
 					'''
-					Prevents the Void Bar from being moved by your cursor
+					Предотвращает перемещение шкалы пустоты курсором
 					Also prevents the Void Bar from automatically switching positions when using the 'Bars' Health and Mana Style interface setting
 					'''
-				AVBD: Changes the Void Bar's roll down direction
-				AVBS: Modifies the Void Bar's visuals slightly
-				VBTT: Enable/disable the text above the Void Bar
-				VBHT: Enable/disable the text that appears when you hover over the Void Bar
+				AVBD: Теперь шкала пустоты направлена вниз
+				AVBS: Слегка изменяет вид шкалы пустоты
+				VBTT: Включает/выключает текст над шкалой пустоты
+				VBHT: Включает/выключает текст, который появляется, когда вы наводите курсор на шкалу пустоты
 				SVBT: Removes Void Minion quantity indicators from the Void Bar text
 				SVBF: Removes the division lines between inner fill Void Bar elements
 				PM:
 					'''
-					Reduces various visual effects in order to increase framerate
-					Mostly affects boss-related visuals and projectile trails
+					Уменьшает количество визуальных эффектов для повышения производтлеьности
+					В основном влияет на боссов и послеобразы снарядов
 					'''
 				CTF: Whether the color of the screen during time freeze is tinted or black and white
 				AVE:
 					'''
-					Adds bonus visuals, such as dusts, to a handful of tiles
-					Only works with the SOTS Texture Pack enabled
+					Добавляет дополнительные эффекты, например пыль, различным блокам
+					Работает только со включённым Secrets of the Shadows набором текстур
 					'''
 				SHT:
 					'''
-					-2 = No starter house (you are deranged)
-					-1 = Random starter house 
+					-2 = Без стартового дома (да вы с ума сошли)
+					-1 = Случайный стартовый дом
 					0 = Legacy House
 					1 = Legacy Angel
 					2 = Legacy Barrel
@@ -140,21 +140,21 @@ Mods: {
 					9 = Legacy Crate
 					10 = Mushnib's
 					11 = Astrobit's
-					12 = Bloodmoon
-					13 = Bandit
-					14 = Boulder
-					15 = Mine
-					16 = Tavern
-					17 = Chaos
-					18 = Drowned
-					19 = Comfy
-					20 = Nature
+					12 = Кровавая луна
+					13 = Бандит
+					14 = Булыжник
+					15 = Шахты
+					16 = Таверна
+					17 = Хаос
+					18 = Подводный
+					19 = Комфортный
+					20 = Природа
 					'''
 				NINS:
 					'''
-					Nerfs Soaring Insignia, making it only grant infinite flight after Lux is defeated.
-					Before Lux is defeated, it will only double your flight time.
-					If you disagree with this change, you can disable it here.
+					Ослабляет парящую эмблему, из-за чего она дарует бесконечный полёт только после победы над Люкс.
+					До победы над Люкс инсигняю будет удваивать ваше время полёта.
+					Если вы не согласны с этим изменением, вы можете отключить его здесь.
 					'''
 			}
 		}
@@ -178,7 +178,7 @@ Mods: {
 
 		KeyBindName: {
 			Blink: Blink
-			ArmorSet: Armor Set
+			ArmorSet: Бонус сета
 			MFM: Modify Flight Mode
 			SlowFlight: Slow Down Flight Mode
 		}
@@ -218,23 +218,23 @@ Mods: {
 			DefeatAdvisor: Drops if Advisor has been defeated
 			DefeatPharaohsCurseBefor: До победы над Проклятьем Фараона
 			DefeatPharaohsCurse: После победы над Проклятьем Фараона
-			DefeatEyeofCthulhuBefor: Before the Eye of Cthulhu has been defeated
-			DefeatEyeofCthulhu: After the Eye of Cthulhu has been defeated
+			DefeatEyeofCthulhuBefor: Выпадает до победы над Глазом Ктулху
+			DefeatEyeofCthulhu: Выпадает после победы над Глазом Ктулху
 			Killedfully: Drops when killed fully
-			SansUndertale: Sans Undertale
-			OrangeLesserWisps: Orange Lesser Wisps
+			SansUndertale: Санс Андертейл
+			OrangeLesserWisps: Меньший оранжевый висп
 			ForestAndJungleBiomes: Drops in forest and jungle biomes
 			PyramidAndDesertAndUndergroundBiomes: Drops in Pyramid, desert, and underground biomes
-			ColdBiomes: Drops in cold biomes
-			SkyAndMeteorBiomes: Drops in sky and meteor biomes
-			BeachAndDungeonBiomes: Drops in beach and dungeon biomes
-			Underworld: Drops in the underworld
-			EvilBiome: Drops in the evil biome
-			HallowBiome: Drops in the hallow biome
-			BeachBiome: Drops in the beach biome
-			Dungeon: Drops in the dungeon
+			ColdBiomes: Выпаает в холодных биомах
+			SkyAndMeteorBiomes: Выпадает в небесах и около упавшего метеорита
+			BeachAndDungeonBiomes: Выпадает на пляже и в данже
+			Underworld: Выпадает в аду
+			EvilBiome: Выпадает в злом биоме
+			HallowBiome: Выпадает в святом биоме
+			BeachBiome: Выпадет на пляже
+			Dungeon: Выпадает в данже
 			PlanetariumBiome: Выпадает в Панетариуме
-			OnFire: Drops if on fire
+			OnFire: Выпадает, если враг горит
 			PhantarayCore1: С ядром
 			PhantarayCore2: Без ядра
 		}
@@ -266,7 +266,7 @@ Mods: {
 				DisplayName: Алебарда из древней стали 
 				Tooltip:
 					'''
-					Разбивает врагов, заставляя следующую атаку ближнего боя проигнорировать защиту врага и гарантировать критический удар
+					Разбивает врагов, заставляя следующую атаку ближнего боя проигнорировать защиту врага и гарантируя критический удар
 					Алебарда не получает бонуса от разбития
 					'''
 			}
@@ -275,7 +275,7 @@ Mods: {
 				DisplayName: Длинный лук из древней стали
 				Tooltip:
 					'''
-					Перед стрельбой необходимо натянуть тетеву
+					Перед стрельбой необходимо натянуть тетиву
 					Стелы летят на большой скорости и раздлетаются на осколки, наносящие 100% урона
 					'''
 			}
@@ -284,7 +284,7 @@ Mods: {
 				DisplayName: Меч из древней стали
 				Tooltip:
 					'''
-					При попадании, наносит 80% урона по площади
+					При попадании наносит 80% урона по площади
 					Критические удары наносят на 50% больше урона
 					Также может наложить на цель складывающийся дебафф кровотечения, наносящей 5 ед. урона в секунду
 					'''
@@ -292,7 +292,7 @@ Mods: {
 
 			CharredWood: {
 				DisplayName: Обугленная древесина
-				Tooltip: «Слишком обгоревшее, чтобы его можно было использовать»
+				Tooltip: «Слишком обгоревшая, чтобы ею можно было использовать»
 			}
 
 			CharredWoodWall: {
@@ -329,7 +329,7 @@ Mods: {
 				Tooltip:
 					'''
 					Epic Gamer
-					«Подстать вашим амбициям»
+					«Под стать вашим амбициям»
 					'''
 			}
 
@@ -537,7 +537,7 @@ Mods: {
 					'''
 					Выпускает зелёный гром в сторону вашего курсора
 					Зелёный гром отскакивает от врага к врагу, нанося им 90% урона
-					Вы будете постоянно излучать свет, если предмет находится в избраннов в вашем инвентаре
+					Вы будете постоянно излучать свет, если предмет находится в избранном в вашем инвентаре
 					«Сила самой преисподней»
 					'''
 			}
@@ -557,7 +557,7 @@ Mods: {
 				Tooltip:
 					'''
 					«Бесконечно поглощает всё вокруг, включая память вашего устройтва»
-					Может бробить до 14 врагов за раз
+					Может пробить до 14 врагов за раз
 					Не наносит урона игрокам
 					'''
 			}
@@ -571,11 +571,11 @@ Mods: {
 				DisplayName: Измельчитель измерений
 				Tooltip:
 					'''
-					Summons dimensional wisps around you that fire towards your cursor
-					Right click to summon a cluster of dimensional wisps
-					Bullets travel through blocks and release lightning for 50% damage
+					Призывает окружающих игрока межпространственных виспов, стреляющих по напрвлению вашего курсора
+					Нажмите ПКМ, чтобы призвать нескольких межпространственных виспов
+					Пули проходят сквозь блоки и аыпускают молнии, наносящие 50% урона
 					66%-ный шанс не потратить боеприпасы
-					'Tear a rift through your enemies'
+					'Расколи ряды своих врагов, как скалу'
 					'''
 			}
 
@@ -583,8 +583,8 @@ Mods: {
 				DisplayName: Foggy Clairvoyance
 				Tooltip:
 					'''
-					Increases damage by 15% and grants immunity to almost every debuff
-					'Cursed'
+					Увеличивает урон на 15% и дарует иммунитет практически ко всем дебаффам
+					'Проклят'
 					'''
 			}
 
@@ -600,38 +600,38 @@ Mods: {
 			}
 
 			PlasmaCutterButOnAChain: {
-				DisplayName: Plasma Cutter on a Chain
-				Tooltip: "'This is utmost wonderful idea'"
+				DisplayName: Плазменный резак на цепи
+				Tooltip: "'Это замечательная идея'"
 			}
 
 			SanguiteBar: {
 				DisplayName: Sanguite Scales
-				Tooltip: "'It smells of sulfur and blood'"
+				Tooltip: "'Пахнет серой и кровью'"
 			}
 
 			SerpentSpine: {
-				DisplayName: Serpent Spine
+				DisplayName: Позвоночник змея
 				Tooltip:
 					'''
-					Increases melee weapon size by 40% and whip length by 40%
-					Increases melee speed by 10%
-					Melee and whip attacks may scorch enemies, increasing damage dealt by 3% permanently
+					Увеличивает размер хлыстов и оружия ближнего боя на 40%
+					Увеличивает скорость ближнего боя на 10%
+					Атаки хлыстами и оружием ближнего боя могут опалить врагов, что навсегда увеличит полуаемый ими урон на 3%
 					'''
 			}
 
 			SubspaceBag: {
-				DisplayName: Treasure Bag
+				DisplayName: Мешок с сокровищами
 				Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 			}
 
 			SubspaceLocket: {
-				DisplayName: Subspace Locket
+				DisplayName: Подпространственный медальон
 				Tooltip:
 					'''
-					Summons a Subspace Servant to assist in combat
-					Uses the item in your last inventory slot for you
-					Decreases damage by 25% multiplicatively
-					Increases max void by 50, but reduces healing received from potions by 40
+					Призывает подпространственного служителя помогать вам в бою
+					Он использует предмет в последнем слоте инвенторя
+					Уменьшает урон на 25%
+					Увеличивает максимальную пустоту на 50, но уменьшает количество получаемого здоровья от зелий на 40
 					'''
 			}
 
