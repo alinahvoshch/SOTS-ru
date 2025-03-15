@@ -11,12 +11,12 @@ Mods: {
 			SOTSTexturePackName: Secrets of the Shadows Texture Pack
 			Void: "Пустота: "
 			Damage: урона
-			Void2: "[c/9748c6:{0} ед. пустотного {1}]"
-			VoidM: "[c/9748c6:{0} ед. пустотного {1} и {1} ближнего боя]"
-			VoidR: "[c/9748c6:{0} ед. пустотного и стелкового {1}]"
-			VoidM2: "[c/9748c6:{0} ед. пустотного и магического {1}]"
-			VoidS: "[c/9748c6:{0} ед. пустотного {1} и {1} призывателя]"
-			VoidSDouble: "{0} пустотного + {1}призываетеля {2}"
+			Void2: "{0} ед. пустотного {1}"
+			VoidM: "{0} ед. пустотного {1} и {1} ближнего боя]"
+			VoidR: "{0} ед. пустотного и стелкового {1}"
+			VoidM2: "{0} ед. пустотного и магического {1}"
+			VoidS: "{0} ед. пустотного {1} и {1} призывателя"
+			VoidSDouble: "{0} пустотного и {1}призываетеля {2}"
 			VoidSPercent: ??? ед. пустотного {0} и {0} призывателя
 			CV: Расходует {0} ед. пустоты
 			GenSOTSOres: Генерация руд Secrets of the Shadows...
@@ -580,7 +580,7 @@ Mods: {
 			}
 
 			FoggyClairvoyance: {
-				DisplayName: Foggy Clairvoyance
+				DisplayName: Туманное видение
 				Tooltip:
 					'''
 					Увеличивает урон на 15% и дарует иммунитет практически ко всем дебаффам
@@ -589,13 +589,13 @@ Mods: {
 			}
 
 			Lemegeton: {
-				DisplayName: Lemegeton
+				DisplayName: Лемегетон
 				Tooltip:
 					'''
-					Summons a horde of Wisps to defend you from nearby enemies
-					Red wisps will attack closer enemies and steal life for 100% damage
-					Green wisps will fire short-ranged blasts for 200% damage
-					Purple wisps launch a cluster of homing bolts for 75% damage each
+					Призывает группу огоньков на вашу защиту
+					Красные огоньки будут атаковать блибайщих врагов и поглощать их здоровье, нанося 100%
+					Зелёные огоньки атакуют на которком расстоянии, нанося 200% урона
+					Фиолетовые огоньки будут выпускать залп самонаводящихся снарядов, наносящих 75% урона
 					'''
 			}
 
@@ -605,7 +605,7 @@ Mods: {
 			}
 
 			SanguiteBar: {
-				DisplayName: Sanguite Scales
+				DisplayName: Крованитовая чешуя
 				Tooltip: «Пахнет серой и кровью»
 			}
 
@@ -636,64 +636,64 @@ Mods: {
 			}
 
 			SubspaceScissors: {
-				DisplayName: Spirit Scissors
-				Tooltip: "'Assistance from purgatory'"
+				DisplayName: Ножницы душ
+				Tooltip: «Покровительство чистилища»
 			}
 
 			VoidspaceAuraStaff: {
-				DisplayName: Voidspace Aura Staff
+				DisplayName: Посох ауры небытия
 				Tooltip:
 					'''
-					Summons a voidspace cell on your cursor that releases flames at nearby enemies
-					Grants stat boosts while in the radius of the cell
-					Void regeneration speed increases by 4%, life regeneration by 4, defense by 4, and reduces damage taken by 4%
-					Damages all enemies within range
-					Range scales with summon damage
+					Призывает клетку небытия в месте вашего курсора, стреляющую по ближайшим врагам
+					Враги, находящиеся в ауре клетки получают переодический урон
+					Нахождение в ауре клетки также усилиает ваши характеристики:
+					Увеличивает скорость восполнения пустоты на 4%, скорость регенерации здоровья на 4 ед. (2 ОЗ/сек), защиту на 4 ед., и снижает получаемый урон на 4%
+					Повтореные призывы увеличивают радиус ауры
 					'''
 			}
 
 			VoidspaceEmblem: {
-				DisplayName: Voidspace Emblem
+				DisplayName: Эмблема небытия
 				Tooltip:
 					'''
-					Increases void damage and magic damage by 10%
-					Increases void crit by 10%
-					Critical strikes heal small amounts of void
-					Reduces void cost by 8%
-					Increases void gain by 4 and max void by 50
-					Regenerate void when hit
-					Immunity to Broken Armor and Ichor
+					Увеличивает пустотный и магический урон н 10%
+					Увеличивает шанс пустотного критическиго удара на 10%
+					Критические попадания восстанавливают немного пустоты
+					Снижает расход пустоты на 8%
+					Увеличивает скорость восполнения пустоты на 4 ед. и максимальный запас пустоты на 50 ед.
+					Ваша шкала пустоты будет восполнятся при получении урона
+					Даёт иммунитет к дебаффам «{$BuffName.BrokenArmor}»  и «{$BuffName.Ichor}» 
 					'''
 			}
 
 			Armaggedon: {
 				# Chaos
-				DisplayName: Armageddon
+				DisplayName: Армагеддон
 				# Chaos
 				Tooltip:
 					'''
-					Unleash a flurry of punches
-					Provides a light source while favorited in the inventory
-					'Power from the heavens'
+					Выпускает шквал ударов
+					Вы будете постоянно излучать свет, если предмет находится в избранном в вашем инвентаре
+					«Сила небесного происхождения»
 					'''
 			}
 
 			ChaosChamber: {
-				DisplayName: Chaos Chamber
+				DisplayName: Патронник хаоса
 				Tooltip:
 					'''
-					Unloads almost as fast as the trigger is pulled
-					Bullets gain homing capabilities
-					Transforms bullets into laser balls every 6th shot
+					Перезаряжается также быстро, как вы нажимаете на спусковой крючёк
+					Любые используемые патроны приобретают самонаводку
+					Преобразует каждый 6-ой пыстрел в лазерный шар
 					'''
 			}
 
 			EtherealScepter: {
-				DisplayName: Ethereal Scepter
+				DisplayName: Эфирный скипетр
 				Tooltip:
 					'''
-					Summons an Ethereal Flame to fight for you
-					Ethereal Flames attack enemies by rapidly dashing through them
+					Призывает эфирное пламя сражаться за вас
+					Эфирное пламя наносит урон, совершая быстрые тарянящие рывки через врагов
 					'''
 			}
 
@@ -5182,33 +5182,33 @@ Mods: {
 			}
 
 			VoidspaceBreastplate: {
-				DisplayName: Voidspace Ranger's Breastplate
+				DisplayName: Нагрудник рейнджера небытия
 				Tooltip:
 					'''
-					When hurt, 15% of damage taken is converted into void
-					When using void, 15% of the void used is converted into life
-					Reduces mana cost by 15% 
-					Increases void gain by 3 and max void by 100
+					Конвектирует 15% полученного урона в пустоту
+					Конвектирует 15% израсходованной пустоты в здоровье
+					Снижает потребление маны на 15% 
+					Увеличиваетс корость восполнения пустоты на 3 ед. и максимальный запас пустоты на 100 ед.
 					'''
 			}
 
 			VoidspaceLeggings: {
-				DisplayName: Voidspace Ranger's Leggings
+				DisplayName: Поножи рейнджера небытия
 				Tooltip:
 					'''
-					Increases magic and ranged damage by 25%
-					Increases void damage by 15% and movement speed by 20%
-					Increases void gain by 3 and max void by 50
+					Увеличивает магический и стрелковый урон на 25%
+					Увеличивает пустотный урон на 15% и скорость передвижения на 20%
+					Увеличиваетс корость восполнения пустоты на 3 ед. и максимальный запас пустоты на 50 ед.
 					'''
 			}
 
 			VoidspaceMask: {
-				DisplayName: Voidspace Ranger's Mask
+				DisplayName: Маска рейнджера небытия
 				Tooltip:
 					'''
-					Increases magic and ranged critical strike chance by 25%
-					Increases void critical strike chance by 15% and max mana by 100
-					Increases void gain by 4 and max void by 50
+					Увеличивает шанс магического и стрелкового критического удара на 25%
+					Увеличивает шанс пустотного критического удара на 15% и максимальный запас пустоты на 100 ед.
+					Увеличиваетс корость восполнения пустоты на 4 ед. и максимальный запас пустоты на 50 ед.
 					'''
 			}
 
@@ -5360,35 +5360,35 @@ Mods: {
 			}
 
 			ElementalBreastplate: {
-				DisplayName: Elemental Breastplate
+				DisplayName: Элементальный нагрудник
 				Tooltip: TEMP
 				TooltipExt:
 					'''
-					Increases melee and summon damage by 30%
-					Increases life regeneration by 4
-					Press '{0}' to teleport to your cursor, dealing 200% of your defense as damage to all enemies in your path
+					Увеличивает урон ближнего боя и призывателя на 30%
+					Увеличиваетс скорость регенерации здоровья на 4 ед. (2 ОЗ/сек)
+					Нажмите клавишу «Бонус комплекта» ({0}), чтобы телепортироваться в место курсора, нанеся 200% урона от вашей защиты всем врагам на вашем пути
 					Has a 15 second cooldown, but increases melee speed by 40% during the cooldown
 					'''
 			}
 
 			ElementalHelmet: {
-				DisplayName: Elemental Helmet
+				DisplayName: Элементальный шлем
 				Tooltip:
 					'''
-					Increases melee, summon, and void damage by 15%
-					Increases void gain by 3 and max void by 100
-					Increases max minions by 2
+					Увеличивает пустотный урон, урон ближнего боя и урон призывателя на 15%
+					Увеличиваетс скорость восполнения пустоты на 3 ед. и максимальный запас пустоты на 100 ед.
+					Увеличивает максимальное количество слотов миньонов на 2
 					'''
 			}
 
 			ElementalLeggings: {
-				DisplayName: Elemental Leggings
+				DisplayName: Элементальные поножи
 				Tooltip:
 					'''
-					Increases summon damage, whip range, and movement speed by 15%
-					Increases melee critical strike chance by 15%
-					Increases void gain by 2 and max void by 100
-					Increases max sentries by 2
+					Увеличивает урон призывателя, дальность хлыста и скорость передвижения на 15%
+					Увеличивает шанс критического удара ближнего боя на 15%
+					Увеличивает скорость восполнения пустоты на 2 ед.  и максимальный запас пустоты на 100 ед.
+					Увеличивает максимальное количество слотов стражей на 2
 					'''
 			}
 
