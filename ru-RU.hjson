@@ -644,10 +644,10 @@ Mods: {
 				DisplayName: Посох ауры небытия
 				Tooltip:
 					'''
-					Призывает клетку небытия в месте вашего курсора, стреляющую по ближайшим врагам
-					Враги, находящиеся в ауре клетки получают переодический урон
+					Призывает клетку небытия, стреляющую по ближайшим врагам, в месте вашего курсора, 
+					Враги, находящиеся в ауре клетки, получают периодический урон
 					Нахождение в ауре клетки также усилиает ваши характеристики:
-					Увеличивает получаемое количество пустоты на 4%, скорость регенерации здоровья на 4 ед. (2 ОЗ/сек), защиту на 4 ед., и снижает получаемый урон на 4%
+					Увеличивает получаемое количество пустоты на 4%, скорость регенерации здоровья на 4 ед. (2 ОЗ/сек), защиту на 4 ед. и снижает получаемый урон на 4%
 					Повтореные призывы увеличивают радиус ауры
 					'''
 			}
@@ -662,7 +662,7 @@ Mods: {
 					Снижает расход пустоты на 8%
 					Увеличивает получаемое количество пустоты на 4 ед. и максимальный запас пустоты на 50 ед.
 					Ваша шкала пустоты будет восполнятся при получении урона
-					Даёт иммунитет к дебаффам «{$BuffName.BrokenArmor}»  и «{$BuffName.Ichor}» 
+					Даёт иммунитет к дебаффам «{$BuffName.BrokenArmor}» и «{$BuffName.Ichor}» 
 					'''
 			}
 
@@ -682,7 +682,7 @@ Mods: {
 				DisplayName: Патронник хаоса
 				Tooltip:
 					'''
-					Перезаряжается также быстро, как вы нажимаете на спусковой крючёк
+					Перезаряжается также быстро, как вы нажимаете на спусковой крючок
 					Любые используемые патроны приобретают самонаводку
 					Преобразует каждый 6-ой пыстрел в лазерный шар
 					'''
@@ -710,8 +710,8 @@ Mods: {
 			}
 
 			HyperlightGeyser: {
-				DisplayName: Hyperlight Geyser
-				Tooltip: Launches 4 beams of light which each home at up to 10 enemies
+				DisplayName: Сверхсветовой гейзер
+				Tooltip: Выпускает 4 луча света, каждый из которых самонаводится, пронзая до 10 врагов
 			}
 
 			LuxBag: {
@@ -720,123 +720,124 @@ Mods: {
 			}
 
 			ParticleRelocator: {
-				DisplayName: Particle Relocator
+				DisplayName: Телепортатор частиц
 				Tooltip:
 					'''
-					When an enemy hits you, you will be teleported behind them, avoiding damage and freezing them in time temporarily
-					Has a 16 second cooldown, but increases melee damage by 50% for 7 seconds after teleporting
-					Does damage equal to your defense
+					Когда враг попадает по вам, вы перемещаетесь ему за спину, избегая урона и временно его замораживая
+					После телепортации урон ближнего боя повышен на 50%, но повторная телепортация возможна только через 16 секунд
+					Наносит урон, пропорциональный вашей защите
 					'''
 			}
 
 			PhaseBar: {
-				DisplayName: Phase Bar
-				Tooltip: "'It borders on the edge of reality'"
+				DisplayName: Фазовый слиток
+				Tooltip: "'Он находится на грани нашей реальности'"
 			}
 
 			PhaseOre: {
-				DisplayName: Phase Ore
+				DisplayName: Фазовая руда
 				Tooltip: ""
 			}
 
 			RealityShatter: {
-				DisplayName: Reality Shatter
-				Tooltip: Enemies receive an additional flurry of slashes that do 4x50% damage
+				DisplayName: Дробитель реальности
+				Tooltip: При попадании по врагам по ним наносится шквал ударов, урон которого составляет 4 x 50%
 			}
 
 			RoseBow: {
-				DisplayName: Rose Bow
+				DisplayName: Лук-роза
 				Tooltip:
 					'''
-					Transforms arrows into spears of light that can travel through walls
-					When briefly charged, arrows explode for 600% damage
-					When fully charged, arrows bloom for 1500% damage
-					Charging will also conjure thorns, which are launched for 2x100% damage each
-					Only consumes void when charged
+					Превращает стрелы в копья света, проходящие сковзь стены
+					При малой степеени заряда срелы при контакте с врагом взрываются, нанося 600% урона
+					При полной степени заряда стрелы расцветают, нанося 1500% урона
+					Зарядка также создаёт шипы, каждый из которых наносит 2 x 100% урона
+					При полной зарядке потребляет только пустоту
 					'''
 			}
 
 			StellarSerpentLauncher: {
-				DisplayName: Stellar Serpent Launcher
-				Tooltip: Launches a Starlight Serpent which homes on enemys and attacks them repeatedly
+				DisplayName: Запускатель звёздного змея
+				Tooltip: Запускает звёздного змея, который наводится на противников и атакует их непрерывно
 			}
 
 			StellarShot: {
-				DisplayName: Stellar Shot
-				Tooltip: Rapidly fires piercing lasers
+				DisplayName: Звёздный стрелец
+				Tooltip: Непрерывно стреляет прошивающими лазерами
 			}
 
 			SupernovaStorm: {
-				DisplayName: Supernova Storm
+				DisplayName: Шторм сверхновой
 				Tooltip:
 					'''
-					Calls down a Supernova Beam from the sky
-					Causes enemies to rupture into homing bolts for 3x140% damage
+					Призывает луч суперновы с небес
+					Враги разрываются самонаводящимися выстрелами, наносящими 3 x 140% каждый
 					'''
 			}
 
 			VoidmageIncubator: {
-				DisplayName: Voidmage Incubator
+				DisplayName: Взращиватель пустотных магов
 				Tooltip:
 					'''
-					Epic Gamer
-					Increases void gain by 2
-					Getting hit will freeze time, converting void into life for the duration
-					Increases the potency of Void Shock and Void Recovery
-					Allows access to wormhole crafting recipes
+					Эпичный игрок
+					Увеличивает получаемую пустоту на 2
+					Получение удара замораживает время; в течение этой заморозки пустота конвертируется в здоровье
+					Увеличивает силу Пустотного шока и Пустотного восстановления
+					Дарует доступ к чревоточным трансмутациям
 					'''
 			}
 
 			SpiritSymphony: {
-				DisplayName: Spirit Symphony
+				DisplayName: Симфония духа
 				Tooltip:
 					'''
-					Increases void gain by 1 and void regeneration speed by 25%
-					Doubles damage done to non-Lux spirit enemies
+					Увеличивает получаемую пустоту на 1 и скорость её регенерации на 25%
+					Наносите двойной урон нелюксовым духовным существам
 					'''
 			}
 
 			SpiritInsignia: {
-				DisplayName: Spirit Insignia
+				DisplayName: Эмблема духа
 				Tooltip:
 					'''
-					Grants infinite wing and rocket boot flight
-					Increases flight and jump mobility
-					Increases void gain by 1 and void regeneration speed by 25%
-					Doubles damage done to non-Lux spirit enemies
+					Дарует бесконечный полёт
+					Увеличивает скорость полёта и прыжка, а также мобильность в воздухе
+					Увеличивает получаемую пустоту на 1 и скорость её регенерации на 25%
+					Наносите двойной урон нелюксовым духовным существам
 					'''
 			}
 
 			BagOfAmmoGathering: {
 				# ChestItems
-				DisplayName: Bag of Ammunition Gathering
+				DisplayName: Сумка восстановления аммуниции
 				# ChestItems
 				Tooltip:
 					'''
-					20% chance not to consume ammo
-					Striking enemies has a chance to refund ammo
-					Landing the killing blow on enemies may also refund ammo
+					20% шанс не потрать боеприпасы
+					Удары по врагам имеют шанс вернуть боеприпасы
+					Смертельные удары восстанавливают боеприпасы
 					'''
 			}
 
 			BetrayersKnife: {
-				DisplayName: Betrayer's Knife
+				DisplayName: Нож предателя
 				Tooltip:
 					'''
-					Strike with 2 slashes, which always bleed enemies on the first hit
-					The second slash does 150% damage
+					Наносит 2 удара, первый из которых заставляет врагов истекать кровью
+					Второй удар наносит 150% урона
 					'''
 			}
 
 			CoconutGun: {
-				DisplayName: Coconut Gun
+				DisplayName: Кокосовая пушка
 				Tooltip:
 					'''
-					Launches coconut cluster bombs with homing coconut milk shrapnel
-					'It fires in spurts'
+					Запускает кластерные кокосовые бомбы с самоноводящейся кокосово-молочной шрапнелью
+					'Стреляет рывками'
 					'''
 			}
-
+				
+				
 			GlazeBow: {
 				DisplayName: Glaze Bow
 				Tooltip:
