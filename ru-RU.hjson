@@ -6,13 +6,13 @@ Mods: {
 			Dedicated: ~ Посвящённый предмет ~
 			BlastDoor: Взрывоустойчивая дверь
 			Dresser: Камод
-			Unbound: NONE
+			Unbound: "[Не назначено]"
 			ACZV: Автоматически потребляется, когда пустота падает ниже нуля
 			SOTSTexturePackName: Secrets of the Shadows Texture Pack
 			Void: "Пустота: "
 			Damage: урона
 			Void2: "{0} ед. пустотного {1}"
-			VoidM: "{0} ед. пустотного {1} и {1} ближнего боя"
+			VoidM: "{0} ед. пустотного {1} и {1} ближнего боя]"
 			VoidR: "{0} ед. пустотного и стелкового {1}"
 			VoidM2: "{0} ед. пустотного и магического {1}"
 			VoidS: "{0} ед. пустотного {1} и {1} призывателя"
@@ -2236,7 +2236,7 @@ Mods: {
 				# Invidia
 				DisplayName: Маска Весперы
 				# Invidia
-				Tooltip: Увеличивает максимальный запас пустоты на 25 ед. и скорость восполнения на 1 ед.
+				Tooltip: Увеличивает максимальный запас пустоты на 25 ед. и скорость восполнения пустоты на 1 ед.
 			}
 
 			VesperaLeggings: {
@@ -5367,7 +5367,7 @@ Mods: {
 					Увеличивает урон ближнего боя и призывателя на 30%
 					Увеличиваетс скорость регенерации здоровья на 4 ед. (2 ОЗ/сек)
 					Нажмите клавишу «Бонус комплекта» ({0}), чтобы телепортироваться в место курсора, нанеся 200% урона от вашей защиты всем врагам на вашем пути
-					Has a 15 second cooldown, but increases melee speed by 40% during the cooldown
+					Телепорт имеет 15 секунд перезарядки, во время которой скорость ближнего боя увеличивается на 40%
 					'''
 			}
 
@@ -5899,7 +5899,7 @@ Mods: {
 				Increases void gain by 2
 				Vibrant Pistol fires three shots at once at the cost of accuracy
 				'''
-			Vespera: Increases max void by 25 and void gain by 50%
+			Vespera: Увеличивает максимальный запас пустоты на 25 ед. и скорость восполнения пустоты на 50%
 			NatureWreath: Призывает 3 цветочные лозы сражаться за вас
 			TwilightAssassins:
 				'''
@@ -5926,15 +5926,17 @@ Mods: {
 			PatchLeather: Summons a flock of flying snakes to assist in combat
 			Voidspace:
 				'''
-				Attacks permanently inflict the Subspace Flames debuff, which deals 10 damage per second
-				When an enemy with Subspace Flames is killed, they deal damage to all other enemies equal to the cumulative damage they took from Subspace Flames
-				Enemies that take damage this way will also be inflicted with Subspace Flames
+				
+				Все атаки накладывают дебафф «Субпространственное пламя», наносящий 10 ед. урона в секунду
+				Если враг умирает под действием этого дебаффа, он взрывается, нанося ближайшим врагам урон, равный сумме полученного от дебаффа урона
+				Враги, получившие урон таким образом, также получают дебафф «Субпространственное пламя»
 				'''
 			Elemental:
 				'''
-				Enemies hit by the teleport will be frozen in time temporarily
-				Decreases cooldown on the teleport to 6 seconds and increases the range enemies will take damage from the teleport by 50%
-				Increases teleport damage based on void damage modifiers
+				
+				Враги на вашем пути, получившие урон во время телепортации, будут временно замороженны во времени
+				Снижает время перезарядки телепорта на 6 секунд и увеличивает дальность поражения при телепортации на 50%
+				Урон от телепортации будет увеличиваться в зависимости от бонусов к пустотнуму урону
 				'''
 		}
 
