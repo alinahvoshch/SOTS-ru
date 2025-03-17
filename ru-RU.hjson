@@ -701,8 +701,8 @@ Mods: {
 				DisplayName: Гипердвигатель
 				Tooltip:
 					'''
-					Даёт 33% шанс не израсходовать пустоту на втором уровне заряда клещей
-					Четвёрный уровень клещей дробилок не будет расходовать пустоту
+					Даёт 33%-ный шанс не израсходовать пустоту на втором уровне заряда клещей
+					Четвёрный уровень заряда клещей не будет расходовать пустоту
 					Увеличивает количество создаваемых клещами снарядов на 1
 					Увеличивает скорость ближнего боя на 25% и урон ближнего боя на 5%
 					Снижает расход пустоты на 10%
@@ -1226,14 +1226,14 @@ Mods: {
 			}
 
 			CircuitBoard: {
-				DisplayName: Circuit Board
+				DisplayName: Печатная плата
 				Tooltip:
 					'''
-					The second charge of a Crusher has a 33% chance to not consume void
-					The fourth charge of Crushers no longer consumes void
-					Extends the range of Crushers by 1
-					Increases melee speed and melee damage by 5%
-					Increases Crusher charge speed by 10%
+					Даёт 33%-ный шанс не израсходовать пустоту на втором уровне заряда клещей
+					Четвёрный уровень заряда клещей не будет расходовать пустоту
+					Увеличивает количество создаваемых клещами снарядов на 1
+					Увеличивает скорость и урон ближнего боя на 5%
+					Увеличивает скорость зарядки клещей на 10%
 					'''
 			}
 
@@ -1257,12 +1257,12 @@ Mods: {
 
 			CrushingCapacitor: {
 				DisplayName: Конденсатор сдавливания
-				Tooltip: Четвёрный уровень клещей дробилок не будет расходовать пустоту
+				Tooltip: Четвёрный уровень заряда клещей не будет расходовать пустоту
 			}
 
 			CrushingResistor: {
 				DisplayName: Резистор сдавливания
-				Tooltip: Даёт 33% шанс не израсходовать пустоту на втором уровне заряда клещей
+				Tooltip: Даёт 33%-ный шанс не израсходовать пустоту на втором уровне заряда клещей
 			}
 
 			CrushingTransformer: {
@@ -1521,77 +1521,77 @@ Mods: {
 			}
 
 			VibrantOre: {
-				DisplayName: Vibrant Shard
+				DisplayName: Виброосколок
 				Tooltip: ""
 			}
 
 			VibrantBar: {
-				DisplayName: Vibrant Alloy
+				DisplayName: Вибросплав
 				Tooltip: ""
 			}
 
 			VibrantBrick: {
-				DisplayName: Vibrant Brick
+				DisplayName: Виброкирпич
 				Tooltip: ""
 			}
 
 			VibrantWall: {
-				DisplayName: Unsafe Vibrant Ore Wall
+				DisplayName: Небезоспасная стена из виброруды
 				Tooltip: ""
 			}
 
 			VibrantBullet: {
-				DisplayName: Vibrant Bullet
+				DisplayName: Вибропуля
 				Tooltip:
 					'''
-					Splits into 3 shards
-					One shard flies straight for 100% damage
-					The other shards deal 25% damage
+					Распадается на 3 осколка
+					Осколок, летящий по изначальной траектории, наносит 100% урона
+					Остальные 2 осколна нанесут по 25% урона
 					'''
 			}
 
 			VibrantArrow: {
-				DisplayName: Vibrant Arrow
-				Tooltip: Scatters 3 shards below the area of impact for 120% damage
+				DisplayName: Вибрострела
+				Tooltip: Разбивается на 3 осколка при поподании, наносщих 120% урона
 			}
 
 			VibrantBlade: {
-				DisplayName: Vibrant Blade
+				DisplayName: Виброклинок
 				Tooltip: ""
 			}
 
 			VibrantCannon: {
-				DisplayName: Vibrant Cannon
+				DisplayName: Вибропушка
 				Tooltip: ""
 			}
 
 			VibrantPistol: {
-				DisplayName: Vibrant Pistol
-				Tooltip: Rapidly fires Vibrant Bolts
+				DisplayName: Вибропистолет
+				Tooltip: Быстро стреляет выброснарядами
 			}
 
 			VibrantStaff: {
-				DisplayName: Vibrant Staff
-				Tooltip: Fires a homing bolt
+				DisplayName: Вибропосох
+				Tooltip: Выпускает самонаводящийся выстрел
 			}
 
 			VibrantChestplate: {
-				DisplayName: Vibrant Chestplate
-				Tooltip: Increases void damage by 10% and ranged damage by 5%
+				DisplayName: Вибронагрудник
+				Tooltip: Увеличивает пустотный урон на 10% и стрелковый урон на 5%
 			}
 
 			VibrantHelmet: {
-				DisplayName: Vibrant Helmet
+				DisplayName: Виброшлем
 				Tooltip:
 					'''
-					Increases max void by 50
-					Increases ranged critical strike chance by 5%
+					Увеличивает максимальный запас пустоты на 50 ед.
+					Увеличивает шанс стрелкового критического удара на 5%
 					'''
 			}
 
 			VibrantLeggings: {
-				DisplayName: Vibrant Leggings
-				Tooltip: Decreased void usage by 10%
+				DisplayName: Вибропоножи
+				Tooltip: Снижает расход пустоты на 10%
 			}
 
 			PixelBlaster: {
@@ -2755,11 +2755,11 @@ Mods: {
 			}
 
 			VibrancyModule: {
-				DisplayName: Vibrancy Module
+				DisplayName: Вибромодуль
 				Tooltip:
 					'''
-					Increases void attack speed by 10%
-					Reduces void cost by 10%
+					Увеличивает скорость пустотных атак на 10%
+					Снижает расход пустоты на 10%
 					'''
 			}
 
