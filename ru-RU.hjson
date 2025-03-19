@@ -749,7 +749,7 @@ Mods: {
 				Tooltip:
 					'''
 					Превращает стрелы в копья света, проходящие сковзь стены
-					При малой степеени заряда срелы при контакте с врагом взрываются, нанося 600% урона
+					При малой степени заряда срелы при контакте с врагом взрываются, нанося 600% урона
 					При полной степени заряда стрелы расцветают, нанося 1500% урона
 					Зарядка также создаёт шипы, каждый из которых наносит по 100% урона 2 раза
 					При полной зарядке потребляет только пустоту
@@ -834,42 +834,42 @@ Mods: {
 			}
 				
 			GlazeBow: {
-				DisplayName: Glaze Bow
+				DisplayName: Иниевый лук
 				Tooltip:
 					'''
-					Coalesces ice mist to power up your arrows
-					When briefly charged, arrows will travel faster and hit with an icy explosion that deals 200% damage
-					When fully charged, arrows bloom into wisps of ice, dealing 600% damage
+					Конденсирует ледяной туман для усиления ваших стрел
+					При малой степени заряда стрелы летят быстрее в взрываются льдом, нанося при этом 200% урона
+					При полной зарядке стрелы расцветают в ледяные цветы, нанося при этом 600% урона
 					'''
 			}
 
 			KelpWhip: {
-				DisplayName: Kelp Whip
+				DisplayName: Ламинарный хлыст
 				Tooltip:
 					'''
-					Minions critically strike the tagged enemy, but with a 2 second cooldown between critical strikes
-					Your summons will focus struck enemies
+					Миньооны наносят критические удары по отмеченной цели, но задержка между критами составляет 2 секунды
+					Ваши миньоны сосредоточатся на отмеченной цели
 					'''
 			}
 
 			PathogenRegurgitator: {
-				DisplayName: Pathogen Regurgitator
+				DisplayName: Регулятор патогенов
 				Tooltip:
 					'''
-					Fire pathogen balls
-					Hits may infect enemies for 12 damage per second
-					When an infected enemy is killed, it releases more pathogen balls
+					Стреляет патогенными шарами
+					Удары могут заразить врага, из-за чего он будет получать 12 урона в секунду
+					Когда заражённый ураг умирает, он выпускает много патогенных шаров
 					'''
 			}
 
 			PerfectStar: {
-				DisplayName: Perfect Star
-				Tooltip: "'The perfect weapon'"
+				DisplayName: Идеальная Звезда
+				Tooltip: «Идеальное оружие»
 			}
 
 			RebarRifle: {
-				DisplayName: Rebar Rifle
-				Tooltip: Shoots a powerful, high velocity rebar that applies a stacking, permanent bleed to hit enemies for 5 damage per second
+				DisplayName: Арматурная винтовка
+				Tooltip: Стреляет тяжёлой высокоскоростной арматурой, накладывающей суммирующееся вечное кровотечение, наносящее 5 урона в секунду за стак
 			}
 
 			RockCandy: {
@@ -877,88 +877,88 @@ Mods: {
 				Tooltip:
 					'''
 					Увеличивает мощность кирки на 5
-					Увеличивает скорость добычи, ближнего боя и передвижения на 5%
+					Увеличивает скорости добычи, ближнего боя и передвижения на 5%
 					'''
 			}
 
 			Sawflake: {
-				DisplayName: Sawflake
-				Tooltip: Throw a Sawflake that exudes a spiral of razor ice mist in every direction
+				DisplayName: Резжинка
+				Tooltip: Бросает Резжинку, которая создаёт вихрь из бритвенно-острого ледяного тумана
 			}
 
 			ShieldofDesecar: {
-				DisplayName: Shield of Desecar
+				DisplayName: Щит иссушения
 				Tooltip:
 					'''
-					Grants 1 defense for every 4 empty inventory slots
-					'Less is more'
+					За каждые 4 пустых слота в инвентаре вы получаете 1 единицу защиты
+					«Меньше значит больше»
 					'''
 			}
 
 			ShieldofStekpla: {
-				DisplayName: Shield of Stekpla
+				DisplayName: Щит наполненности
 				Tooltip:
 					'''
-					Increases critical strike chance by 1% for every 4 full inventory slots
-					'More is more'
+					За каждые 4 пустых слота в инвентаре вы получаете 1% шанса критического удара
+					«Больше значит больше»
 					'''
 			}
 
 			SpikedClub: {
-				DisplayName: Spiked Club
+				DisplayName: Дубина с шипами
 				Tooltip:
 					'''
-					Lays down spike traps
-					Lays down more traps when wearing climbing related accessories
+					Разбрасывает шипы-ловушки
+					Рызбрасывает больше ловушек, если вы носите аксессуары, связанные с карабканием
 					'''
 			}
 
 			StarcallerStaff: {
-				DisplayName: Starcaller Staff
+				DisplayName: Посох звездочёта
 				Tooltip:
 					'''
-					Summons a Crystal Serpent to fight for you
-					The Crystal Serpent circles around enemies and fires stars at them
+					Призывает Кристального Змея сражаться за вас
+					Кристальный Змей кружит около врагов и запускает в них звёзды
 					'''
 			}
 
 			SyntheticLiver: {
-				DisplayName: Synthetic Liver
+				DisplayName: Синтетическая печень
 				Tooltip:
 					'''
-					Increases void received from food by 25%
-					Consuming potions multiple times will increase buff duration instead of resetting it
-					Debuff durations are drained faster, increasing the duration of all active buffs
+					Увеличивает пустоту, получаемую от еды, на 25%
+					Потребление нескольких зелий подряд увеличит продолжительность баффа вместо того, чтобы сбросить его к стандартному значению
+					Дебаффы заканчиваются быстрее, при этом продлевая активные баффы
 					'''
 			}
 
 			TangleStaff: {
-				DisplayName: Tangle Staff
+				DisplayName: Посох сплетния
 				Tooltip:
 					'''
-					Fire a flower that ensnares enemies
-					Ensnared enemies are slowed and have their life drained
-					Increases life regeneration for each ensnared enemy
+					Запускает ловящий врагов цветок
+					Пойманные враги теряют здоровье и передвигаются медленнее
+					Скорость регенерации здоровья увеличивается пропорционально количеству пойманных врагов
 					'''
 			}
 
 			TinyPlanet: {
-				DisplayName: Tiny Planet
-				Tooltip: Surrounds you with 2 orbital projectiles
+				DisplayName: Крошечная планета
+				Tooltip: Вокруг вас вращаются 2 планеты
 			}
 
 			WingedKnife: {
-				DisplayName: Winged Knife
+				DisplayName: Крылатый нож
 				Tooltip: ""
 			}
 
 			ArchaeologistToolbelt: {
 				# Conduit
-				DisplayName: Archaeologist's Toolbelt
+				DisplayName: Археологический пояс с инструментами
 				# Conduit
 				Tooltip:
 					'''
-					Increases block placement and tool range by 3
+					Увеличивает дальность размещения блоков и использования инструментов на 3
 					Allows the placement and destruction of conduits
 					Extends the pickup range for conduit items
 					'''
@@ -988,11 +988,11 @@ Mods: {
 			}
 
 			GoldenTrowel: {
-				DisplayName: Golden Trowel
+				DisplayName: Золотой мастерок
 				Tooltip:
 					'''
-					Mining blocks has a chance to drop bonus resources, such as coins and silt
-					Increases mining speed by 5%
+					Во время добычи блоков у вас есть шанс получить доплонительные ресурсы, например ил и монеты
+					Увеличивает скорость добычи блоков на 5%
 					'''
 			}
 
