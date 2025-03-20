@@ -4415,11 +4415,11 @@ Mods: {
 			}
 
 			ZombieHand: {
-				DisplayName: Zombie Hand
+				DisplayName: Зомбицифцированная рука
 				Tooltip:
 					'''
-					Allows melee swings to harm Town NPCs
-					'Finally, I can kill the painter!'
+					Позволяет наносить урон городским НИПам
+					«Наконец-то, я смогу убить художника!»
 					'''
 			}
 
